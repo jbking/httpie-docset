@@ -2,15 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>CFBundleIdentifier</key>
-  <string>HTTPie</string>
-  <key>CFBundleName</key>
-  <string>HTTPie</string>
-  <key>DocSetPlatformFamily</key>
-  <string>httpie</string>
-  <key>isDashDocset</key>
-  <true/>
-  <key>isJavaScriptEnabled</key>
-  <false/>
+	<key>CFBundleIdentifier</key>
+	<string>httpie</string>
+	<key>CFBundleName</key>
+	<string>HTTPie</string>
+	<key>DocSetPlatformFamily</key>
+	<string>httpie</string>
+	<key>isDashDocset</key>
+	<true/>
+	<key>DashDocSetFamily</key>
+	<string>dashtoc</string>
+	<key>dashIndexFilePath</key>
+	<string>README.html</string>
+	<key>isJavaScriptEnabled</key><false/>
 </dict>
 </plist>

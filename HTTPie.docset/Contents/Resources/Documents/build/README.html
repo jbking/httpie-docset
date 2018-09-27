@@ -1,16 +1,14 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
 <meta charset="utf-8"/>
-<meta name="generator" content="Docutils 0.14: http://docutils.sourceforge.net/" />
-<title>HTTPie: a CLI, cURL-like tool for humans</title>
+<meta name="generator" content="Docutils 0.14: http://docutils.sourceforge.net/"/>
+<a class="dashingAutolink" name="autolink-0"></a><a class="dashAnchor" name="//apple_ref/cpp/Guide/HTTPie%3A%20a%20CLI%2C%20cURL-like%20tool%20for%20humans"></a><title>HTTPie: a CLI, cURL-like tool for humans</title>
 <style type="text/css">
 
 /* Minimal style sheet for the HTML output of Docutils.                    */
 /*                                                                         */
-/* :Author: Günter Milde, based on html4css1.css by David Goodger          */
+/* :Author: G&uuml;nter Milde, based on html4css1.css by David Goodger          */
 /* :Id: $Id: minimal.css 8036 2017-02-14 13:05:46Z milde $               */
-/* :Copyright: © 2015 Günter Milde.                                        */
+/* :Copyright: &copy; 2015 G&uuml;nter Milde.                                        */
 /* :License: Released under the terms of the `2-Clause BSD license`_,      */
 /*    in short:                                                            */
 /*                                                                         */
@@ -273,9 +271,9 @@ table.borderless td, table.borderless th {
 /* CSS31_ style sheet for the output of Docutils HTML writers.             */
 /* Rules for easy reading and pre-defined style variants.		   */
 /*                                                                         */
-/* :Author: Günter Milde, based on html4css1.css by David Goodger          */
+/* :Author: G&uuml;nter Milde, based on html4css1.css by David Goodger          */
 /* :Id: $Id: plain.css 8120 2017-06-22 21:02:40Z milde $               */
-/* :Copyright: © 2015 Günter Milde.                                        */
+/* :Copyright: &copy; 2015 G&uuml;nter Milde.                                        */
 /* :License: Released under the terms of the `2-Clause BSD license`_,      */
 /*    in short:                                                            */
 /*                                                                         */
@@ -339,11 +337,11 @@ dl > dd {
 /* Definition Lists         */
 
 dl > dd > p:first-child { margin-top: 0; }
-/* :last-child is not part of CSS 2.1 (introduced in CSS 3) */
+/* :last-child is not part of CSS&nbsp;2.1 (introduced in CSS&nbsp;3) */
 dl > dd > p:last-child  { margin-bottom: 0; }
 
 /* lists nested in definition lists */
-/* :only-child is not part of CSS 2.1 (introduced in CSS 3) */
+/* :only-child is not part of CSS&nbsp;2.1 (introduced in CSS&nbsp;3) */
 dd > ul:only-child, dd > ol:only-child { padding-left: 1em; }
 
 /* Description Lists */
@@ -545,7 +543,7 @@ div.footer, div.header {
 /*   cite		    */
 /* Inline Literals          */
 /* possible values: normal, nowrap, pre, pre-wrap, pre-line */
-/*   span.docutils.literal { white-space: pre-wrap; } */
+/*   span.docutils.literal {&nbsp;white-space: pre-wrap; } */
 
 /* Hyperlink References     */
 a { text-decoration: none; }
@@ -571,8 +569,8 @@ as possible. It provides a simple <span class="docutils literal">http</span> com
 arbitrary HTTP requests using a simple and natural syntax, and displays
 colorized output. HTTPie can be used for testing, debugging, and
 generally interacting with HTTP servers.</p>
-<img alt="HTTPie compared to cURL" class="no-web align-center" src="https://raw.githubusercontent.com/jakubroztocil/httpie/master/httpie.png" style="width: 100%;" />
-<p class="no-web no-pdf"><a class="reference external" href="https://pypi.python.org/pypi/httpie"><img alt="Latest version released on PyPi" src="https://img.shields.io/pypi/v/httpie.svg?style=flat-square&amp;label=latest%20stable%20version" /></a> <a class="reference external" href="http://travis-ci.org/jakubroztocil/httpie"><img alt="Build status of the master branch on Mac/Linux" src="https://img.shields.io/travis/jakubroztocil/httpie/master.svg?style=flat-square&amp;label=unix%20build" /></a> <a class="reference external" href="https://coveralls.io/r/jakubroztocil/httpie?branch=master"><img alt="Test coverage" src="https://img.shields.io/coveralls/jakubroztocil/httpie/master.svg?style=flat-square&amp;label=coverage" /></a> <a class="reference external" href="https://gitter.im/jkbrzt/httpie"><img alt="Chat on Gitter" src="https://img.shields.io/gitter/room/jkbrzt/httpie.svg?style=flat-square" /></a></p>
+<img alt="HTTPie compared to cURL" class="no-web align-center" src="https://raw.githubusercontent.com/jakubroztocil/httpie/master/httpie.png" style="width: 100%;"/>
+<p class="no-web no-pdf"><a class="reference external" href="https://pypi.python.org/pypi/httpie"><img alt="Latest version released on PyPi" src="https://img.shields.io/pypi/v/httpie.svg?style=flat-square&amp;label=latest%20stable%20version"/></a> <a class="reference external" href="http://travis-ci.org/jakubroztocil/httpie"><img alt="Build status of the master branch on Mac/Linux" src="https://img.shields.io/travis/jakubroztocil/httpie/master.svg?style=flat-square&amp;label=unix%20build"/></a> <a class="reference external" href="https://coveralls.io/r/jakubroztocil/httpie?branch=master"><img alt="Test coverage" src="https://img.shields.io/coveralls/jakubroztocil/httpie/master.svg?style=flat-square&amp;label=coverage"/></a> <a class="reference external" href="https://gitter.im/jkbrzt/httpie"><img alt="Chat on Gitter" src="https://img.shields.io/gitter/room/jkbrzt/httpie.svg?style=flat-square"/></a></p>
 <div class="contents topic" id="contents">
 <p class="topic-title first">Contents</p>
 <ul class="auto-toc simple">
@@ -733,7 +731,7 @@ generally interacting with HTTP servers.</p>
 </ul>
 </div>
 <div class="section" id="main-features">
-<h1><a class="toc-backref" href="#id2"><span class="sectnum">1</span> Main features</a></h1>
+<h1><a class="dashingAutolink" name="autolink-1"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Main%20features"></a><a class="toc-backref" href="#id2"><span class="sectnum">1</span> Main features</a></h1>
 <ul class="simple">
 <li><p>Expressive and intuitive syntax</p></li>
 <li><p>Formatted and colorized terminal output</p></li>
@@ -752,9 +750,9 @@ generally interacting with HTTP servers.</p>
 </ul>
 </div>
 <div class="section" id="installation">
-<h1><a class="toc-backref" href="#id3"><span class="sectnum">2</span> Installation</a></h1>
+<h1><a class="dashingAutolink" name="autolink-2"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Installation"></a><a class="toc-backref" href="#id3"><span class="sectnum">2</span> Installation</a></h1>
 <div class="section" id="macos">
-<h2><a class="toc-backref" href="#id4"><span class="sectnum">2.1</span> macOS</a></h2>
+<h2><a class="dashingAutolink" name="autolink-3"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/macOS"></a><a class="toc-backref" href="#id4"><span class="sectnum">2.1</span> macOS</a></h2>
 <p>On macOS, HTTPie can be installed via <a class="reference external" href="http://brew.sh/">Homebrew</a>
 (recommended):</p>
 <pre class="code bash literal-block"><code>$ brew install httpie</code></pre>
@@ -762,7 +760,7 @@ generally interacting with HTTP servers.</p>
 <pre class="code bash literal-block"><code>$ port install httpie</code></pre>
 </div>
 <div class="section" id="linux">
-<h2><a class="toc-backref" href="#id5"><span class="sectnum">2.2</span> Linux</a></h2>
+<h2><a class="dashingAutolink" name="autolink-4"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Linux"></a><a class="toc-backref" href="#id5"><span class="sectnum">2.2</span> Linux</a></h2>
 <p>Most Linux distributions provide a package that can be installed using the
 system package manager, for example:</p>
 <pre class="code bash literal-block"><code><span class="comment single"># Debian, Ubuntu, etc.
@@ -775,8 +773,8 @@ system package manager, for example:</p>
 </span>$ pacman -S httpie</code></pre>
 </div>
 <div class="section" id="windows-etc">
-<h2><a class="toc-backref" href="#id6"><span class="sectnum">2.3</span> Windows, etc.</a></h2>
-<p>A universal installation method (that works on Windows, Mac OS X, Linux, …,
+<h2><a class="dashingAutolink" name="autolink-5"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Windows%2C%20etc."></a><a class="toc-backref" href="#id6"><span class="sectnum">2.3</span> Windows, etc.</a></h2>
+<p>A universal installation method (that works on Windows, Mac OS X, Linux, &hellip;,
 and always provides the latest version) is to use <a class="reference external" href="https://pip.pypa.io/en/stable/installing/">pip</a>:</p>
 <pre class="code bash literal-block"><code><span class="comment single"># Make sure we have an up-to-date version of pip and setuptools:
 </span>$ pip install --upgrade pip setuptools
@@ -786,7 +784,7 @@ $ pip install --upgrade httpie</code></pre>
 <span class="docutils literal">easy_install httpie</span> as a fallback.)</p>
 </div>
 <div class="section" id="python-version">
-<h2><a class="toc-backref" href="#id7"><span class="sectnum">2.4</span> Python version</a></h2>
+<h2><a class="dashingAutolink" name="autolink-6"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Python%20version"></a><a class="toc-backref" href="#id7"><span class="sectnum">2.4</span> Python version</a></h2>
 <p>Although Python 2.7 is supported as well, it is strongly recommended to
 install HTTPie against the latest Python 3.x whenever possible. That will
 ensure that some of the newer HTTP features, such as
@@ -795,12 +793,12 @@ Python 3 is the default for Homebrew installations starting with version 0.9.4.
 To see which version HTTPie uses, run <span class="docutils literal">http <span class="pre">--debug</span></span>.</p>
 </div>
 <div class="section" id="unstable-version">
-<h2><a class="toc-backref" href="#id8"><span class="sectnum">2.5</span> Unstable version</a></h2>
+<h2><a class="dashingAutolink" name="autolink-7"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Unstable%20version"></a><a class="toc-backref" href="#id8"><span class="sectnum">2.5</span> Unstable version</a></h2>
 <p>You can also instead of the latest the latest unreleased development version
 directly from the <span class="docutils literal">master</span> branch on GitHub.
 It is a work-in-progress of a future stable release so the experience
 might be not as smooth.</p>
-<p><a class="reference external" href="http://travis-ci.org/jakubroztocil/httpie"><img alt="Build status of the master branch on Mac/Linux" src="https://img.shields.io/travis/jakubroztocil/httpie/master.svg?style=flat-square&amp;label=unix%20build" /></a></p>
+<p><a class="reference external" href="http://travis-ci.org/jakubroztocil/httpie"><img alt="Build status of the master branch on Mac/Linux" src="https://img.shields.io/travis/jakubroztocil/httpie/master.svg?style=flat-square&amp;label=unix%20build"/></a></p>
 <p>On macOS you can install it with Homebrew:</p>
 <pre class="code bash literal-block"><code>$ brew install httpie --HEAD</code></pre>
 <p>Otherwise with <span class="docutils literal">pip</span>:</p>
@@ -813,14 +811,14 @@ with the <span class="docutils literal"><span class="pre">-dev</span></span> suf
 </div>
 </div>
 <div class="section" id="usage">
-<h1><a class="toc-backref" href="#id9"><span class="sectnum">3</span> Usage</a></h1>
+<h1><a class="dashingAutolink" name="autolink-8"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Usage"></a><a class="toc-backref" href="#id9"><span class="sectnum">3</span> Usage</a></h1>
 <p>Hello World:</p>
 <pre class="code bash literal-block"><code>$ http httpie.org</code></pre>
 <p>Synopsis:</p>
 <pre class="code bash literal-block"><code>$ http <span class="operator">[</span>flags<span class="operator">]</span> <span class="operator">[</span>METHOD<span class="operator">]</span> URL <span class="operator">[</span>ITEM <span class="operator">[</span>ITEM<span class="operator">]]</span></code></pre>
 <p>See also <span class="docutils literal">http <span class="pre">--help</span></span>.</p>
 <div class="section" id="examples">
-<h2><a class="toc-backref" href="#id10"><span class="sectnum">3.1</span> Examples</a></h2>
+<h2><a class="dashingAutolink" name="autolink-9"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Examples"></a><a class="toc-backref" href="#id10"><span class="sectnum">3.1</span> Examples</a></h2>
 <p>Custom <a class="reference internal" href="#http-method">HTTP method</a>, <a class="reference internal" href="#http-headers">HTTP headers</a> and <a class="reference internal" href="#json">JSON</a> data:</p>
 <pre class="code bash literal-block"><code>$ http PUT example.org X-API-Token:123 <span class="name variable">name</span><span class="operator">=</span>John</code></pre>
 <p>Submitting <a class="reference internal" href="#forms">forms</a>:</p>
@@ -830,7 +828,7 @@ with the <span class="docutils literal"><span class="pre">-dev</span></span> suf
 <p>Use <a class="reference external" href="http://developer.github.com/v3/issues/comments/#create-a-comment">Github API</a> to post a comment on an
 <a class="reference external" href="https://github.com/jakubroztocil/httpie/issues/83">issue</a>
 with <a class="reference internal" href="#authentication">authentication</a>:</p>
-<pre class="code bash literal-block"><code>$ http -a USERNAME POST https://api.github.com/repos/jakubroztocil/httpie/issues/83/comments <span class="name variable">body</span><span class="operator">=</span><span class="literal string single">'HTTPie is awesome! :heart:'</span></code></pre>
+<pre class="code bash literal-block"><code>$ http -a USERNAME POST https://api.github.com/repos/jakubroztocil/httpie/issues/83/comments <span class="name variable">body</span><span class="operator">=</span><span class="literal string single">&#39;HTTPie is awesome! :heart:&#39;</span></code></pre>
 <p>Upload a file using <a class="reference internal" href="#redirected-input">redirected input</a>:</p>
 <pre class="code bash literal-block"><code>$ http example.org &lt; file.json</code></pre>
 <p>Download a file and save it via <a class="reference internal" href="#redirected-output">redirected output</a>:</p>
@@ -848,7 +846,7 @@ $ http --session<span class="operator">=</span>logged-in httpbin.org/headers</co
 </div>
 </div>
 <div class="section" id="http-method">
-<h1><a class="toc-backref" href="#id11"><span class="sectnum">4</span> HTTP method</a></h1>
+<h1><a class="dashingAutolink" name="autolink-10"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/HTTP%20method"></a><a class="toc-backref" href="#id11"><span class="sectnum">4</span> HTTP method</a></h1>
 <p>The name of the HTTP method comes right before the URL argument:</p>
 <pre class="code bash literal-block"><code>$ http DELETE example.org/todos/7</code></pre>
 <p>Which looks similar to the actual <span class="docutils literal"><span class="pre">Request-Line</span></span> that is sent:</p>
@@ -857,24 +855,24 @@ $ http --session<span class="operator">=</span>logged-in httpbin.org/headers</co
 either <span class="docutils literal">GET</span> (with no request data) or <span class="docutils literal">POST</span> (with request data).</p>
 </div>
 <div class="section" id="request-url">
-<h1><a class="toc-backref" href="#id12"><span class="sectnum">5</span> Request URL</a></h1>
+<h1><a class="dashingAutolink" name="autolink-11"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Request%20URL"></a><a class="toc-backref" href="#id12"><span class="sectnum">5</span> Request URL</a></h1>
 <p>The only information HTTPie needs to perform a request is a URL.
 The default scheme is, somewhat unsurprisingly, <span class="docutils literal"><span class="pre">http://</span></span>,
-and can be omitted from the argument – <span class="docutils literal">http example.org</span> works just fine.</p>
+and can be omitted from the argument &ndash; <span class="docutils literal">http example.org</span> works just fine.</p>
 <div class="section" id="querystring-parameters">
-<h2><a class="toc-backref" href="#id13"><span class="sectnum">5.1</span> Querystring parameters</a></h2>
+<h2><a class="dashingAutolink" name="autolink-12"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Querystring%20parameters"></a><a class="toc-backref" href="#id13"><span class="sectnum">5.1</span> Querystring parameters</a></h2>
 <p>If you find yourself manually constructing URLs with querystring parameters
 on the terminal, you may appreciate the <span class="docutils literal"><span class="pre">param==value</span></span> syntax for appending
-URL parameters. With that, you don't have to worry about escaping the <span class="docutils literal">&amp;</span>
+URL parameters. With that, you don&#39;t have to worry about escaping the <span class="docutils literal">&amp;</span>
 separators for your shell. Also, special characters in parameter values,
 will also automatically escaped (HTTPie otherwise expects the URL to be
 already escaped). To search for <span class="docutils literal">HTTPie logo</span> on Google Images you could use
 this command:</p>
-<pre class="code bash literal-block"><code>$ http www.google.com <span class="name variable">search</span><span class="operator">==</span><span class="literal string single">'HTTPie logo'</span> <span class="name variable">tbm</span><span class="operator">==</span>isch</code></pre>
+<pre class="code bash literal-block"><code>$ http www.google.com <span class="name variable">search</span><span class="operator">==</span><span class="literal string single">&#39;HTTPie logo&#39;</span> <span class="name variable">tbm</span><span class="operator">==</span>isch</code></pre>
 <pre class="code http literal-block"><code><span class="name function">GET</span> <span class="name namespace">/?search=HTTPie+logo&amp;tbm=isch</span> <span class="keyword reserved">HTTP</span><span class="operator">/</span><span class="literal number">1.1</span></code></pre>
 </div>
 <div class="section" id="url-shortcuts-for-localhost">
-<h2><a class="toc-backref" href="#id14"><span class="sectnum">5.2</span> URL shortcuts for <span class="docutils literal">localhost</span></a></h2>
+<h2><a class="dashingAutolink" name="autolink-13"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/URL%20shortcuts%20for%20localhost"></a><a class="toc-backref" href="#id14"><span class="sectnum">5.2</span> URL shortcuts for <span class="docutils literal">localhost</span></a></h2>
 <p>Additionally, curl-like shorthand for localhost is supported.
 This means that, for example <span class="docutils literal">:3000</span> would expand to <span class="docutils literal"><span class="pre">http://localhost:3000</span></span>
 If the port is omitted, then port 80 is assumed.</p>
@@ -889,26 +887,26 @@ If the port is omitted, then port 80 is assumed.</p>
 <span class="name attribute">Host</span><span class="operator">:</span> <span class="literal">localhost</span></code></pre>
 </div>
 <div class="section" id="custom-default-scheme">
-<h2><a class="toc-backref" href="#id15"><span class="sectnum">5.3</span> Custom default scheme</a></h2>
+<h2><a class="dashingAutolink" name="autolink-14"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Custom%20default%20scheme"></a><a class="toc-backref" href="#id15"><span class="sectnum">5.3</span> Custom default scheme</a></h2>
 <p>You can use the <span class="docutils literal"><span class="pre">--default-scheme</span> &lt;URL_SCHEME&gt;</span> option to create
 shortcuts for other protocols than HTTP:</p>
-<pre class="code bash literal-block"><code>$ <span class="name builtin">alias</span> <span class="name variable">https</span><span class="operator">=</span><span class="literal string single">'http --default-scheme=https'</span></code></pre>
+<pre class="code bash literal-block"><code>$ <span class="name builtin">alias</span> <span class="name variable">https</span><span class="operator">=</span><span class="literal string single">&#39;http --default-scheme=https&#39;</span></code></pre>
 </div>
 </div>
 <div class="section" id="request-items">
-<h1><a class="toc-backref" href="#id16"><span class="sectnum">6</span> Request items</a></h1>
+<h1><a class="dashingAutolink" name="autolink-15"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Request%20items"></a><a class="toc-backref" href="#id16"><span class="sectnum">6</span> Request items</a></h1>
 <p>There are a few different <em>request item</em> types that provide a
 convenient mechanism for specifying HTTP headers, simple JSON and
 form data, files, and URL parameters.</p>
 <p>They are key/value pairs specified after the URL. All have in
 common that they become part of the actual request that is sent and that
 their type is distinguished only by the separator used:
-<span class="docutils literal">:</span>, <span class="docutils literal">=</span>, <span class="docutils literal">:=</span>, <span class="docutils literal">==</span>, <span class="docutils literal">&#64;</span>, <span class="docutils literal">=&#64;</span>, and <span class="docutils literal">:=&#64;</span>. The ones with an
-<span class="docutils literal">&#64;</span> expect a file path as value.</p>
+<span class="docutils literal">:</span>, <span class="docutils literal">=</span>, <span class="docutils literal">:=</span>, <span class="docutils literal">==</span>, <span class="docutils literal">@</span>, <span class="docutils literal">=@</span>, and <span class="docutils literal">:=@</span>. The ones with an
+<span class="docutils literal">@</span> expect a file path as value.</p>
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 70%" />
+<col style="width: 30%"/>
+<col style="width: 70%"/>
 </colgroup>
 <thead>
 <tr><th class="head"><p>Item Type</p></th>
@@ -928,37 +926,37 @@ The <span class="docutils literal">==</span> separator is used.</p></td>
 </tr>
 <tr><td><p>Data Fields
 <span class="docutils literal">field=value</span>,
-<span class="docutils literal"><span class="pre">field=&#64;file.txt</span></span></p></td>
+<span class="docutils literal"><span class="pre">field=@file.txt</span></span></p></td>
 <td><p>Request data fields to be serialized as a JSON
 object (default), or to be form-encoded
 (<span class="docutils literal"><span class="pre">--form,</span> <span class="pre">-f</span></span>).</p></td>
 </tr>
 <tr><td><p>Raw JSON fields
 <span class="docutils literal"><span class="pre">field:=json</span></span>,
-<span class="docutils literal"><span class="pre">field:=&#64;file.json</span></span></p></td>
+<span class="docutils literal"><span class="pre">field:=@file.json</span></span></p></td>
 <td><p>Useful when sending JSON and one or
 more fields need to be a <span class="docutils literal">Boolean</span>, <span class="docutils literal">Number</span>,
 nested <span class="docutils literal">Object</span>, or an <span class="docutils literal">Array</span>,  e.g.,
-<span class="docutils literal"><span class="pre">meals:='[&quot;ham&quot;,&quot;spam&quot;]'</span></span> or <span class="docutils literal"><span class="pre">pies:=[1,2,3]</span></span>
+<span class="docutils literal"><span class="pre">meals:=&#39;[&#34;ham&#34;,&#34;spam&#34;]&#39;</span></span> or <span class="docutils literal"><span class="pre">pies:=[1,2,3]</span></span>
 (note the quotes).</p></td>
 </tr>
 <tr><td><p>Form File Fields
-<span class="docutils literal"><span class="pre">field&#64;/dir/file</span></span></p></td>
+<span class="docutils literal"><span class="pre">field@/dir/file</span></span></p></td>
 <td><p>Only available with <span class="docutils literal"><span class="pre">--form,</span> <span class="pre">-f</span></span>.
-For example <span class="docutils literal"><span class="pre">screenshot&#64;~/Pictures/img.png</span></span>.
+For example <span class="docutils literal"><span class="pre">screenshot@~/Pictures/img.png</span></span>.
 The presence of a file field results
 in a <span class="docutils literal"><span class="pre">multipart/form-data</span></span> request.</p></td>
 </tr>
 </tbody>
 </table>
-<p>Note that data fields aren't the only way to specify request data:
+<p>Note that data fields aren&#39;t the only way to specify request data:
 <a class="reference internal" href="#redirected-input">Redirected input</a> is a mechanism for passing arbitrary request data.</p>
 <div class="section" id="escaping-rules">
-<h2><a class="toc-backref" href="#id17"><span class="sectnum">6.1</span> Escaping rules</a></h2>
-<p>You can use <span class="docutils literal">\</span> to escape characters that shouldn't be used as separators
+<h2><a class="dashingAutolink" name="autolink-16"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Escaping%20rules"></a><a class="toc-backref" href="#id17"><span class="sectnum">6.1</span> Escaping rules</a></h2>
+<p>You can use <span class="docutils literal">\</span> to escape characters that shouldn&#39;t be used as separators
 (or parts thereof). For instance, <span class="docutils literal"><span class="pre">foo\==bar</span></span> will become a data key/value
 pair (<span class="docutils literal">foo=</span> and <span class="docutils literal">bar</span>) instead of a URL parameter.</p>
-<p>Often it is necessary to quote the values, e.g. <span class="docutils literal"><span class="pre">foo='bar</span> baz'</span>.</p>
+<p>Often it is necessary to quote the values, e.g. <span class="docutils literal"><span class="pre">foo=&#39;bar</span> baz&#39;</span>.</p>
 <p>If any of the field names or headers starts with a minus
 (e.g., <span class="docutils literal"><span class="pre">-fieldname</span></span>), you need to place all such items after the special
 token <span class="docutils literal"><span class="pre">--</span></span> to prevent confusion with <span class="docutils literal"><span class="pre">--arguments</span></span>:</p>
@@ -968,16 +966,16 @@ token <span class="docutils literal"><span class="pre">--</span></span> to preve
 <span class="name attribute">Content-Type</span><span class="operator">:</span> <span class="literal">application/json</span>
 
 <span class="punctuation">{</span>
-    <span class="name tag">&quot;-name-starting-with-dash&quot;</span><span class="punctuation">:</span> <span class="literal string double">&quot;foo&quot;</span>
+    <span class="name tag">&#34;-name-starting-with-dash&#34;</span><span class="punctuation">:</span> <span class="literal string double">&#34;foo&#34;</span>
 <span class="punctuation">}</span></code></pre>
 </div>
 </div>
 <div class="section" id="json">
-<h1><a class="toc-backref" href="#id18"><span class="sectnum">7</span> JSON</a></h1>
+<h1><a class="dashingAutolink" name="autolink-17"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/JSON"></a><a class="toc-backref" href="#id18"><span class="sectnum">7</span> JSON</a></h1>
 <p>JSON is the <em>lingua franca</em> of modern web services and it is also the
 <strong>implicit content type</strong> HTTPie by default uses.</p>
 <p>Simple example:</p>
-<pre class="code bash literal-block"><code>$ http PUT example.org <span class="name variable">name</span><span class="operator">=</span>John <span class="name variable">email</span><span class="operator">=</span>john&#64;example.org</code></pre>
+<pre class="code bash literal-block"><code>$ http PUT example.org <span class="name variable">name</span><span class="operator">=</span>John <span class="name variable">email</span><span class="operator">=</span>john@example.org</code></pre>
 <pre class="code http literal-block"><code><span class="name function">PUT</span> <span class="name namespace">/</span> <span class="keyword reserved">HTTP</span><span class="operator">/</span><span class="literal number">1.1</span>
 <span class="name attribute">Accept</span><span class="operator">:</span> <span class="literal">application/json, */*</span>
 <span class="name attribute">Accept-Encoding</span><span class="operator">:</span> <span class="literal">gzip, deflate</span>
@@ -985,18 +983,18 @@ token <span class="docutils literal"><span class="pre">--</span></span> to preve
 <span class="name attribute">Host</span><span class="operator">:</span> <span class="literal">example.org</span>
 
 <span class="punctuation">{</span>
-    <span class="name tag">&quot;name&quot;</span><span class="punctuation">:</span> <span class="literal string double">&quot;John&quot;</span><span class="punctuation">,</span>
-    <span class="name tag">&quot;email&quot;</span><span class="punctuation">:</span> <span class="literal string double">&quot;john&#64;example.org&quot;</span>
+    <span class="name tag">&#34;name&#34;</span><span class="punctuation">:</span> <span class="literal string double">&#34;John&#34;</span><span class="punctuation">,</span>
+    <span class="name tag">&#34;email&#34;</span><span class="punctuation">:</span> <span class="literal string double">&#34;john@example.org&#34;</span>
 <span class="punctuation">}</span></code></pre>
 <div class="section" id="default-behaviour">
-<h2><a class="toc-backref" href="#id19"><span class="sectnum">7.1</span> Default behaviour</a></h2>
+<h2><a class="dashingAutolink" name="autolink-18"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Default%20behaviour"></a><a class="toc-backref" href="#id19"><span class="sectnum">7.1</span> Default behaviour</a></h2>
 <p>If your command includes some data <a class="reference internal" href="#request-items">request items</a>, they are serialized as a JSON
 object by default. HTTPie also automatically sets the following headers,
 both of which can be overwritten:</p>
 <table>
 <colgroup>
-<col style="width: 29%" />
-<col style="width: 71%" />
+<col style="width: 29%"/>
+<col style="width: 71%"/>
 </colgroup>
 <tbody>
 <tr><td><p><span class="docutils literal"><span class="pre">Content-Type</span></span></p></td>
@@ -1009,49 +1007,49 @@ both of which can be overwritten:</p>
 </table>
 </div>
 <div class="section" id="explicit-json">
-<h2><a class="toc-backref" href="#id20"><span class="sectnum">7.2</span> Explicit JSON</a></h2>
+<h2><a class="dashingAutolink" name="autolink-19"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Explicit%20JSON"></a><a class="toc-backref" href="#id20"><span class="sectnum">7.2</span> Explicit JSON</a></h2>
 <p>You can use <span class="docutils literal"><span class="pre">--json,</span> <span class="pre">-j</span></span> to explicitly set <span class="docutils literal">Accept</span>
 to <span class="docutils literal">application/json</span> regardless of whether you are sending data
-(it's a shortcut for setting the header via the usual header notation:
-<span class="docutils literal">http url <span class="pre">Accept:'application/json,</span> <span class="pre">*/*'</span></span>). Additionally,
+(it&#39;s a shortcut for setting the header via the usual header notation:
+<span class="docutils literal">http url <span class="pre">Accept:&#39;application/json,</span> <span class="pre">*/*&#39;</span></span>). Additionally,
 HTTPie will try to detect JSON responses even when the
 <span class="docutils literal"><span class="pre">Content-Type</span></span> is incorrectly <span class="docutils literal">text/plain</span> or unknown.</p>
 </div>
 <div class="section" id="non-string-json-fields">
-<h2><a class="toc-backref" href="#id21"><span class="sectnum">7.3</span> Non-string JSON fields</a></h2>
+<h2><a class="dashingAutolink" name="autolink-20"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Non-string%20JSON%20fields"></a><a class="toc-backref" href="#id21"><span class="sectnum">7.3</span> Non-string JSON fields</a></h2>
 <p>Non-string fields use the <span class="docutils literal">:=</span> separator, which allows you to embed raw JSON
 into the resulting object. Text and raw JSON files can also be embedded into
-fields using <span class="docutils literal">=&#64;</span> and <span class="docutils literal">:=&#64;</span>:</p>
+fields using <span class="docutils literal">=@</span> and <span class="docutils literal">:=@</span>:</p>
 <pre class="code bash literal-block"><code>$ http PUT api.example.com/person/1 <span class="literal string escape">\
 </span>    <span class="name variable">name</span><span class="operator">=</span>John <span class="literal string escape">\
-</span>    age:<span class="operator">=</span><span class="literal number">29</span> married:<span class="operator">=</span><span class="name builtin">false</span> hobbies:<span class="operator">=</span><span class="literal string single">'[&quot;http&quot;, &quot;pies&quot;]'</span> <span class="literal string escape">\ </span> <span class="comment single"># Raw JSON
-</span>    <span class="name variable">description</span><span class="operator">=</span>&#64;about-john.txt <span class="literal string escape">\ </span>  <span class="comment single"># Embed text file
-</span>    bookmarks:<span class="operator">=</span>&#64;bookmarks.json      <span class="comment single"># Embed JSON file</span></code></pre>
+</span>    age:<span class="operator">=</span><span class="literal number">29</span> married:<span class="operator">=</span><span class="name builtin">false</span> hobbies:<span class="operator">=</span><span class="literal string single">&#39;[&#34;http&#34;, &#34;pies&#34;]&#39;</span> <span class="literal string escape">\ </span> <span class="comment single"># Raw JSON
+</span>    <span class="name variable">description</span><span class="operator">=</span>@about-john.txt <span class="literal string escape">\ </span>  <span class="comment single"># Embed text file
+</span>    bookmarks:<span class="operator">=</span>@bookmarks.json      <span class="comment single"># Embed JSON file</span></code></pre>
 <pre class="code http literal-block"><code><span class="name function">PUT</span> <span class="name namespace">/person/1</span> <span class="keyword reserved">HTTP</span><span class="operator">/</span><span class="literal number">1.1</span>
 <span class="name attribute">Accept</span><span class="operator">:</span> <span class="literal">application/json, */*</span>
 <span class="name attribute">Content-Type</span><span class="operator">:</span> <span class="literal">application/json</span>
 <span class="name attribute">Host</span><span class="operator">:</span> <span class="literal">api.example.com</span>
 
 <span class="punctuation">{</span>
-    <span class="name tag">&quot;age&quot;</span><span class="punctuation">:</span> <span class="literal number integer">29</span><span class="punctuation">,</span>
-    <span class="name tag">&quot;hobbies&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span>
-        <span class="literal string double">&quot;http&quot;</span><span class="punctuation">,</span>
-        <span class="literal string double">&quot;pies&quot;</span>
+    <span class="name tag">&#34;age&#34;</span><span class="punctuation">:</span> <span class="literal number integer">29</span><span class="punctuation">,</span>
+    <span class="name tag">&#34;hobbies&#34;</span><span class="punctuation">:</span> <span class="punctuation">[</span>
+        <span class="literal string double">&#34;http&#34;</span><span class="punctuation">,</span>
+        <span class="literal string double">&#34;pies&#34;</span>
     <span class="punctuation">],</span>
-    <span class="name tag">&quot;description&quot;</span><span class="punctuation">:</span> <span class="literal string double">&quot;John is a nice guy who likes pies.&quot;</span><span class="punctuation">,</span>
-    <span class="name tag">&quot;married&quot;</span><span class="punctuation">:</span> <span class="keyword constant">false</span><span class="punctuation">,</span>
-    <span class="name tag">&quot;name&quot;</span><span class="punctuation">:</span> <span class="literal string double">&quot;John&quot;</span><span class="punctuation">,</span>
-    <span class="name tag">&quot;bookmarks&quot;</span><span class="punctuation">:</span> <span class="punctuation">{</span>
-        <span class="name tag">&quot;HTTPie&quot;</span><span class="punctuation">:</span> <span class="literal string double">&quot;http://httpie.org&quot;</span><span class="punctuation">,</span>
+    <span class="name tag">&#34;description&#34;</span><span class="punctuation">:</span> <span class="literal string double">&#34;John is a nice guy who likes pies.&#34;</span><span class="punctuation">,</span>
+    <span class="name tag">&#34;married&#34;</span><span class="punctuation">:</span> <span class="keyword constant">false</span><span class="punctuation">,</span>
+    <span class="name tag">&#34;name&#34;</span><span class="punctuation">:</span> <span class="literal string double">&#34;John&#34;</span><span class="punctuation">,</span>
+    <span class="name tag">&#34;bookmarks&#34;</span><span class="punctuation">:</span> <span class="punctuation">{</span>
+        <span class="name tag">&#34;HTTPie&#34;</span><span class="punctuation">:</span> <span class="literal string double">&#34;http://httpie.org&#34;</span><span class="punctuation">,</span>
     <span class="punctuation">}</span>
 <span class="punctuation">}</span></code></pre>
 <p>Please note that with this syntax the command gets unwieldy when sending
-complex data. In that case it's always better to use <a class="reference internal" href="#redirected-input">redirected input</a>:</p>
+complex data. In that case it&#39;s always better to use <a class="reference internal" href="#redirected-input">redirected input</a>:</p>
 <pre class="code bash literal-block"><code>$ http POST api.example.com/person/1 &lt; person.json</code></pre>
 </div>
 </div>
 <div class="section" id="forms">
-<h1><a class="toc-backref" href="#id22"><span class="sectnum">8</span> Forms</a></h1>
+<h1><a class="dashingAutolink" name="autolink-21"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Forms"></a><a class="toc-backref" href="#id22"><span class="sectnum">8</span> Forms</a></h1>
 <p>Submitting forms is very similar to sending <a class="reference internal" href="#json">JSON</a> requests. Often the only
 difference is in adding the <span class="docutils literal"><span class="pre">--form,</span> <span class="pre">-f</span></span> option, which ensures that
 data fields are serialized as, and <span class="docutils literal"><span class="pre">Content-Type</span></span> is set to,
@@ -1059,32 +1057,32 @@ data fields are serialized as, and <span class="docutils literal"><span class="p
 form data the implicit content type instead of JSON
 via the <a class="reference internal" href="#config">config</a> file.</p>
 <div class="section" id="regular-forms">
-<h2><a class="toc-backref" href="#id23"><span class="sectnum">8.1</span> Regular forms</a></h2>
-<pre class="code bash literal-block"><code>$ http --form POST api.example.org/person/1 <span class="name variable">name</span><span class="operator">=</span><span class="literal string single">'John Smith'</span></code></pre>
+<h2><a class="dashingAutolink" name="autolink-22"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Regular%20forms"></a><a class="toc-backref" href="#id23"><span class="sectnum">8.1</span> Regular forms</a></h2>
+<pre class="code bash literal-block"><code>$ http --form POST api.example.org/person/1 <span class="name variable">name</span><span class="operator">=</span><span class="literal string single">&#39;John Smith&#39;</span></code></pre>
 <pre class="code http literal-block"><code><span class="name function">POST</span> <span class="name namespace">/person/1</span> <span class="keyword reserved">HTTP</span><span class="operator">/</span><span class="literal number">1.1</span>
 <span class="name attribute">Content-Type</span><span class="operator">:</span> <span class="literal">application/x-www-form-urlencoded; charset=utf-8</span>
 
 name=John+Smith</code></pre>
 </div>
 <div class="section" id="file-upload-forms">
-<h2><a class="toc-backref" href="#id24"><span class="sectnum">8.2</span> File upload forms</a></h2>
+<h2><a class="dashingAutolink" name="autolink-23"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/File%20upload%20forms"></a><a class="toc-backref" href="#id24"><span class="sectnum">8.2</span> File upload forms</a></h2>
 <p>If one or more file fields is present, the serialization and content type is
 <span class="docutils literal"><span class="pre">multipart/form-data</span></span>:</p>
-<pre class="code bash literal-block"><code>$ http -f POST example.com/jobs <span class="name variable">name</span><span class="operator">=</span><span class="literal string single">'John Smith'</span> cv&#64;~/Documents/cv.pdf</code></pre>
+<pre class="code bash literal-block"><code>$ http -f POST example.com/jobs <span class="name variable">name</span><span class="operator">=</span><span class="literal string single">&#39;John Smith&#39;</span> cv@~/Documents/cv.pdf</code></pre>
 <p>The request above is the same as if the following HTML form were
 submitted:</p>
-<pre class="code html literal-block"><code><span class="punctuation">&lt;</span><span class="name tag">form</span> <span class="name attribute">enctype</span><span class="operator">=</span><span class="literal string">&quot;multipart/form-data&quot;</span> <span class="name attribute">method</span><span class="operator">=</span><span class="literal string">&quot;post&quot;</span> <span class="name attribute">action</span><span class="operator">=</span><span class="literal string">&quot;http://example.com/jobs&quot;</span><span class="punctuation">&gt;</span>
-    <span class="punctuation">&lt;</span><span class="name tag">input</span> <span class="name attribute">type</span><span class="operator">=</span><span class="literal string">&quot;text&quot;</span> <span class="name attribute">name</span><span class="operator">=</span><span class="literal string">&quot;name&quot;</span> <span class="punctuation">/&gt;</span>
-    <span class="punctuation">&lt;</span><span class="name tag">input</span> <span class="name attribute">type</span><span class="operator">=</span><span class="literal string">&quot;file&quot;</span> <span class="name attribute">name</span><span class="operator">=</span><span class="literal string">&quot;cv&quot;</span> <span class="punctuation">/&gt;</span>
+<pre class="code html literal-block"><code><span class="punctuation">&lt;</span><span class="name tag">form</span> <span class="name attribute">enctype</span><span class="operator">=</span><span class="literal string">&#34;multipart/form-data&#34;</span> <span class="name attribute">method</span><span class="operator">=</span><span class="literal string">&#34;post&#34;</span> <span class="name attribute">action</span><span class="operator">=</span><span class="literal string">&#34;http://example.com/jobs&#34;</span><span class="punctuation">&gt;</span>
+    <span class="punctuation">&lt;</span><span class="name tag">input</span> <span class="name attribute">type</span><span class="operator">=</span><span class="literal string">&#34;text&#34;</span> <span class="name attribute">name</span><span class="operator">=</span><span class="literal string">&#34;name&#34;</span> <span class="punctuation">/&gt;</span>
+    <span class="punctuation">&lt;</span><span class="name tag">input</span> <span class="name attribute">type</span><span class="operator">=</span><span class="literal string">&#34;file&#34;</span> <span class="name attribute">name</span><span class="operator">=</span><span class="literal string">&#34;cv&#34;</span> <span class="punctuation">/&gt;</span>
 <span class="punctuation">&lt;/</span><span class="name tag">form</span><span class="punctuation">&gt;</span></code></pre>
-<p>Note that <span class="docutils literal">&#64;</span> is used to simulate a file upload form field, whereas
-<span class="docutils literal">=&#64;</span> just embeds the file content as a regular text field value.</p>
+<p>Note that <span class="docutils literal">@</span> is used to simulate a file upload form field, whereas
+<span class="docutils literal">=@</span> just embeds the file content as a regular text field value.</p>
 </div>
 </div>
 <div class="section" id="http-headers">
-<h1><a class="toc-backref" href="#id25"><span class="sectnum">9</span> HTTP headers</a></h1>
+<h1><a class="dashingAutolink" name="autolink-24"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/HTTP%20headers"></a><a class="toc-backref" href="#id25"><span class="sectnum">9</span> HTTP headers</a></h1>
 <p>To set custom headers you can use the <span class="docutils literal">Header:Value</span> notation:</p>
-<pre class="code bash literal-block"><code>$ http example.org  User-Agent:Bacon/1.0  <span class="literal string single">'Cookie:valued-visitor=yes;foo=bar'</span>  <span class="literal string escape">\
+<pre class="code bash literal-block"><code>$ http example.org  User-Agent:Bacon/1.0  <span class="literal string single">&#39;Cookie:valued-visitor=yes;foo=bar&#39;</span>  <span class="literal string escape">\
 </span>    X-Foo:Bar  Referer:http://httpie.org/</code></pre>
 <pre class="code http literal-block"><code><span class="name function">GET</span> <span class="name namespace">/</span> <span class="keyword reserved">HTTP</span><span class="operator">/</span><span class="literal number">1.1</span>
 <span class="name attribute">Accept</span><span class="operator">:</span> <span class="literal">*/*</span>
@@ -1095,28 +1093,28 @@ submitted:</p>
 <span class="name attribute">User-Agent</span><span class="operator">:</span> <span class="literal">Bacon/1.0</span>
 <span class="name attribute">X-Foo</span><span class="operator">:</span> <span class="literal">Bar</span></code></pre>
 <div class="section" id="default-request-headers">
-<h2><a class="toc-backref" href="#id26"><span class="sectnum">9.1</span> Default request headers</a></h2>
+<h2><a class="dashingAutolink" name="autolink-25"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Default%20request%20headers"></a><a class="toc-backref" href="#id26"><span class="sectnum">9.1</span> Default request headers</a></h2>
 <p>There are a couple of default headers that HTTPie sets:</p>
 <pre class="code http literal-block"><code><span class="name function">GET</span> <span class="name namespace">/</span> <span class="keyword reserved">HTTP</span><span class="operator">/</span><span class="literal number">1.1</span>
 <span class="name attribute">Accept</span><span class="operator">:</span> <span class="literal">*/*</span>
 <span class="name attribute">Accept-Encoding</span><span class="operator">:</span> <span class="literal">gzip, deflate</span>
 <span class="name attribute">User-Agent</span><span class="operator">:</span> <span class="literal">HTTPie/&lt;version&gt;</span>
 <span class="name attribute">Host</span><span class="operator">:</span> <span class="literal">&lt;taken-from-URL&gt;</span></code></pre>
-<p>Any of those—except for <span class="docutils literal">Host</span>—can be overwritten and some of them unset.</p>
+<p>Any of those&mdash;except for <span class="docutils literal">Host</span>&mdash;can be overwritten and some of them unset.</p>
 </div>
 <div class="section" id="empty-headers-and-header-un-setting">
-<h2><a class="toc-backref" href="#id27"><span class="sectnum">9.2</span> Empty headers and header un-setting</a></h2>
+<h2><a class="dashingAutolink" name="autolink-26"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Empty%20headers%20and%20header%20un-setting"></a><a class="toc-backref" href="#id27"><span class="sectnum">9.2</span> Empty headers and header un-setting</a></h2>
 <p>To unset a previously specified header
 (such a one of the default headers), use <span class="docutils literal">Header:</span>:</p>
 <pre class="code bash literal-block"><code>$ http httpbin.org/headers Accept: User-Agent:</code></pre>
 <p>To send a header with an empty value, use <span class="docutils literal">Header;</span>:</p>
-<pre class="code bash literal-block"><code>$ http httpbin.org/headers <span class="literal string single">'Header;'</span></code></pre>
+<pre class="code bash literal-block"><code>$ http httpbin.org/headers <span class="literal string single">&#39;Header;&#39;</span></code></pre>
 </div>
 </div>
 <div class="section" id="cookies">
-<h1><a class="toc-backref" href="#id28"><span class="sectnum">10</span> Cookies</a></h1>
+<h1><a class="dashingAutolink" name="autolink-27"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Cookies"></a><a class="toc-backref" href="#id28"><span class="sectnum">10</span> Cookies</a></h1>
 <p>HTTP clients send cookies to the server as regular <a class="reference internal" href="#http-headers">HTTP headers</a>. That means,
-HTTPie does not offer any special syntax for specifying cookies — the usual
+HTTPie does not offer any special syntax for specifying cookies &mdash; the usual
 <span class="docutils literal">Header:Value</span> notation is used:</p>
 <p>Send a single cookie:</p>
 <pre class="code bash literal-block"><code>$ http example.org Cookie:sessionid<span class="operator">=</span>foo</code></pre>
@@ -1129,7 +1127,7 @@ HTTPie does not offer any special syntax for specifying cookies — the usual
 <span class="name attribute">User-Agent</span><span class="operator">:</span> <span class="literal">HTTPie/0.9.9</span></code></pre>
 <p>Send multiple cookies
 (note the header is quoted to prevent the shell from interpreting the <span class="docutils literal">;</span>):</p>
-<pre class="code bash literal-block"><code>$ http example.org <span class="literal string single">'Cookie:sessionid=foo;another-cookie=bar'</span></code></pre>
+<pre class="code bash literal-block"><code>$ http example.org <span class="literal string single">&#39;Cookie:sessionid=foo;another-cookie=bar&#39;</span></code></pre>
 <pre class="code http literal-block"><code><span class="name function">GET</span> <span class="name namespace">/</span> <span class="keyword reserved">HTTP</span><span class="operator">/</span><span class="literal number">1.1</span>
 <span class="name attribute">Accept</span><span class="operator">:</span> <span class="literal">*/*</span>
 <span class="name attribute">Accept-Encoding</span><span class="operator">:</span> <span class="literal">gzip, deflate</span>
@@ -1137,26 +1135,26 @@ HTTPie does not offer any special syntax for specifying cookies — the usual
 <span class="name attribute">Cookie</span><span class="operator">:</span> <span class="literal">sessionid=foo;another-cookie=bar</span>
 <span class="name attribute">Host</span><span class="operator">:</span> <span class="literal">example.org</span>
 <span class="name attribute">User-Agent</span><span class="operator">:</span> <span class="literal">HTTPie/0.9.9</span></code></pre>
-<p>If you often deal with cookies in your requests, then chances are you'd appreciate
+<p>If you often deal with cookies in your requests, then chances are you&#39;d appreciate
 the <a class="reference internal" href="#sessions">sessions</a> feature.</p>
 </div>
 <div class="section" id="authentication">
-<h1><a class="toc-backref" href="#id29"><span class="sectnum">11</span> Authentication</a></h1>
+<h1><a class="dashingAutolink" name="autolink-28"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Authentication"></a><a class="toc-backref" href="#id29"><span class="sectnum">11</span> Authentication</a></h1>
 <p>The currently supported authentication schemes are Basic and Digest
 (see <a class="reference internal" href="#auth-plugins">auth plugins</a> for more). There are two flags that control authentication:</p>
 <table>
 <colgroup>
-<col style="width: 26%" />
-<col style="width: 74%" />
+<col style="width: 26%"/>
+<col style="width: 74%"/>
 </colgroup>
 <tbody>
 <tr><td><p><span class="docutils literal"><span class="pre">--auth,</span> <span class="pre">-a</span></span></p></td>
 <td><p>Pass a <span class="docutils literal">username:password</span> pair as
 the argument. Or, if you only specify a username
-(<span class="docutils literal"><span class="pre">-a</span> username</span>), you'll be prompted for
+(<span class="docutils literal"><span class="pre">-a</span> username</span>), you&#39;ll be prompted for
 the password before the request is sent.
 To send an empty password, pass <span class="docutils literal">username:</span>.
-The <span class="docutils literal">username:password&#64;hostname</span> URL syntax is
+The <span class="docutils literal">username:password@hostname</span> URL syntax is
 supported as well (but credentials passed via <span class="docutils literal"><span class="pre">-a</span></span>
 have higher priority).</p></td>
 </tr>
@@ -1168,19 +1166,19 @@ have higher priority).</p></td>
 </tbody>
 </table>
 <div class="section" id="basic-auth">
-<h2><a class="toc-backref" href="#id30"><span class="sectnum">11.1</span> Basic auth</a></h2>
+<h2><a class="dashingAutolink" name="autolink-29"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Basic%20auth"></a><a class="toc-backref" href="#id30"><span class="sectnum">11.1</span> Basic auth</a></h2>
 <pre class="code bash literal-block"><code>$ http -a username:password example.org</code></pre>
 </div>
 <div class="section" id="digest-auth">
-<h2><a class="toc-backref" href="#id31"><span class="sectnum">11.2</span> Digest auth</a></h2>
+<h2><a class="dashingAutolink" name="autolink-30"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Digest%20auth"></a><a class="toc-backref" href="#id31"><span class="sectnum">11.2</span> Digest auth</a></h2>
 <pre class="code bash literal-block"><code>$ http -A digest -a username:password example.org</code></pre>
 </div>
 <div class="section" id="password-prompt">
-<h2><a class="toc-backref" href="#id32"><span class="sectnum">11.3</span> Password prompt</a></h2>
+<h2><a class="dashingAutolink" name="autolink-31"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Password%20prompt"></a><a class="toc-backref" href="#id32"><span class="sectnum">11.3</span> Password prompt</a></h2>
 <pre class="code bash literal-block"><code>$ http -a username example.org</code></pre>
 </div>
 <div class="section" id="netrc">
-<h2><a class="toc-backref" href="#id33"><span class="sectnum">11.4</span> <span class="docutils literal">.netrc</span></a></h2>
+<h2><a class="dashingAutolink" name="autolink-32"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/.netrc"></a><a class="toc-backref" href="#id33"><span class="sectnum">11.4</span> <span class="docutils literal">.netrc</span></a></h2>
 <p>Authentication information from your <span class="docutils literal"><span class="pre">~/.netrc</span></span> file is honored as well:</p>
 <pre class="code bash literal-block"><code>$ cat ~/.netrc
 machine httpbin.org
@@ -1192,10 +1190,10 @@ HTTP/1.1 <span class="literal number">200</span> OK
 <span class="operator">[</span>...<span class="operator">]</span></code></pre>
 </div>
 <div class="section" id="auth-plugins">
-<h2><a class="toc-backref" href="#id34"><span class="sectnum">11.5</span> Auth plugins</a></h2>
+<h2><a class="dashingAutolink" name="autolink-33"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Auth%20plugins"></a><a class="toc-backref" href="#id34"><span class="sectnum">11.5</span> Auth plugins</a></h2>
 <p>Additional authentication mechanism can be installed as plugins.
 They can be found on the <a class="reference external" href="https://pypi.python.org/pypi?%3Aaction=search&amp;term=httpie&amp;submit=search">Python Package Index</a>.
-Here's a few picks:</p>
+Here&#39;s a few picks:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://github.com/pd/httpie-api-auth">httpie-api-auth</a>: ApiAuth</p></li>
 <li><p><a class="reference external" href="https://github.com/httpie/httpie-aws-auth">httpie-aws-auth</a>: AWS / Amazon S3</p></li>
@@ -1210,38 +1208,38 @@ Here's a few picks:</p>
 </div>
 </div>
 <div class="section" id="http-redirects">
-<h1><a class="toc-backref" href="#id35"><span class="sectnum">12</span> HTTP redirects</a></h1>
+<h1><a class="dashingAutolink" name="autolink-34"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/HTTP%20redirects"></a><a class="toc-backref" href="#id35"><span class="sectnum">12</span> HTTP redirects</a></h1>
 <p>By default, HTTP redirects are not followed and only the first
 response is shown:</p>
 <pre class="code bash literal-block"><code>$ http httpbin.org/redirect/3</code></pre>
 <div class="section" id="follow-location">
-<h2><a class="toc-backref" href="#id36"><span class="sectnum">12.1</span> Follow <span class="docutils literal">Location</span></a></h2>
+<h2><a class="dashingAutolink" name="autolink-35"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Follow%20Location"></a><a class="toc-backref" href="#id36"><span class="sectnum">12.1</span> Follow <span class="docutils literal">Location</span></a></h2>
 <p>To instruct HTTPie to follow the <span class="docutils literal">Location</span> header of <span class="docutils literal">30x</span> responses
 and show the final response instead, use the <span class="docutils literal"><span class="pre">--follow,</span> <span class="pre">-F</span></span> option:</p>
 <pre class="code bash literal-block"><code>$ http --follow httpbin.org/redirect/3</code></pre>
 </div>
 <div class="section" id="showing-intermediary-redirect-responses">
-<h2><a class="toc-backref" href="#id37"><span class="sectnum">12.2</span> Showing intermediary redirect responses</a></h2>
+<h2><a class="dashingAutolink" name="autolink-36"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Showing%20intermediary%20redirect%20responses"></a><a class="toc-backref" href="#id37"><span class="sectnum">12.2</span> Showing intermediary redirect responses</a></h2>
 <p>If you additionally wish to see the intermediary requests/responses,
 then use the <span class="docutils literal"><span class="pre">--all</span></span> option as well:</p>
 <pre class="code bash literal-block"><code>$ http --follow --all httpbin.org/redirect/3</code></pre>
 </div>
 <div class="section" id="limiting-maximum-redirects-followed">
-<h2><a class="toc-backref" href="#id38"><span class="sectnum">12.3</span> Limiting maximum redirects followed</a></h2>
+<h2><a class="dashingAutolink" name="autolink-37"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Limiting%20maximum%20redirects%20followed"></a><a class="toc-backref" href="#id38"><span class="sectnum">12.3</span> Limiting maximum redirects followed</a></h2>
 <p>To change the default limit of maximum <span class="docutils literal">30</span> redirects, use the
 <span class="docutils literal"><span class="pre">--max-redirects=&lt;limit&gt;</span></span> option:</p>
 <pre class="code bash literal-block"><code>$ http --follow --all --max-redirects<span class="operator">=</span><span class="literal number">5</span> httpbin.org/redirect/3</code></pre>
 </div>
 </div>
 <div class="section" id="proxies">
-<h1><a class="toc-backref" href="#id39"><span class="sectnum">13</span> Proxies</a></h1>
+<h1><a class="dashingAutolink" name="autolink-38"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Proxies"></a><a class="toc-backref" href="#id39"><span class="sectnum">13</span> Proxies</a></h1>
 <p>You can specify proxies to be used through the <span class="docutils literal"><span class="pre">--proxy</span></span> argument for each
 protocol (which is included in the value in case of redirects across protocols):</p>
 <pre class="code bash literal-block"><code>$ http --proxy<span class="operator">=</span>http:http://10.10.1.10:3128 --proxy<span class="operator">=</span>https:https://10.10.1.10:1080 example.org</code></pre>
 <p>With Basic authentication:</p>
-<pre class="code bash literal-block"><code>$ http --proxy<span class="operator">=</span>http:http://user:pass&#64;10.10.1.10:3128 example.org</code></pre>
+<pre class="code bash literal-block"><code>$ http --proxy<span class="operator">=</span>http:http://user:pass@10.10.1.10:3128 example.org</code></pre>
 <div class="section" id="environment-variables">
-<h2><a class="toc-backref" href="#id40"><span class="sectnum">13.1</span> Environment variables</a></h2>
+<h2><a class="dashingAutolink" name="autolink-39"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Environment%20variables"></a><a class="toc-backref" href="#id40"><span class="sectnum">13.1</span> Environment variables</a></h2>
 <p>You can also configure proxies by environment variables <span class="docutils literal">HTTP_PROXY</span> and
 <span class="docutils literal">HTTPS_PROXY</span>, and the underlying Requests library will pick them up as well.
 If you want to disable proxies configured through the environment variables for
@@ -1252,28 +1250,28 @@ certain hosts, you can specify them in <span class="docutils literal">NO_PROXY</
 <span class="name builtin">export</span> <span class="name variable">NO_PROXY</span><span class="operator">=</span>localhost,example.com</code></pre>
 </div>
 <div class="section" id="socks">
-<h2><a class="toc-backref" href="#id41"><span class="sectnum">13.2</span> SOCKS</a></h2>
-<p>Homebrew-installed HTTPie comes with SOCKS proxy support out of the box. To enable SOCKS proxy support for non-Homebrew  installations, you'll need to install <span class="docutils literal">requests[socks]</span> manually using <span class="docutils literal">pip</span>:</p>
+<h2><a class="dashingAutolink" name="autolink-40"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/SOCKS"></a><a class="toc-backref" href="#id41"><span class="sectnum">13.2</span> SOCKS</a></h2>
+<p>Homebrew-installed HTTPie comes with SOCKS proxy support out of the box. To enable SOCKS proxy support for non-Homebrew  installations, you&#39;ll need to install <span class="docutils literal">requests[socks]</span> manually using <span class="docutils literal">pip</span>:</p>
 <pre class="code bash literal-block"><code>$ pip install -U requests<span class="operator">[</span>socks<span class="operator">]</span></code></pre>
 <p>Usage is the same as for other types of <a class="reference internal" href="#proxies">proxies</a>:</p>
-<pre class="code bash literal-block"><code>$ http --proxy<span class="operator">=</span>http:socks5://user:pass&#64;host:port --proxy<span class="operator">=</span>https:socks5://user:pass&#64;host:port example.org</code></pre>
+<pre class="code bash literal-block"><code>$ http --proxy<span class="operator">=</span>http:socks5://user:pass@host:port --proxy<span class="operator">=</span>https:socks5://user:pass@host:port example.org</code></pre>
 </div>
 </div>
 <div class="section" id="https">
-<h1><a class="toc-backref" href="#id42"><span class="sectnum">14</span> HTTPS</a></h1>
+<h1><a class="dashingAutolink" name="autolink-41"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/HTTPS"></a><a class="toc-backref" href="#id42"><span class="sectnum">14</span> HTTPS</a></h1>
 <div class="section" id="server-ssl-certificate-verification">
-<h2><a class="toc-backref" href="#id43"><span class="sectnum">14.1</span> Server SSL certificate verification</a></h2>
-<p>To skip the host's SSL certificate verification, you can pass <span class="docutils literal"><span class="pre">--verify=no</span></span>
+<h2><a class="dashingAutolink" name="autolink-42"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Server%20SSL%20certificate%20verification"></a><a class="toc-backref" href="#id43"><span class="sectnum">14.1</span> Server SSL certificate verification</a></h2>
+<p>To skip the host&#39;s SSL certificate verification, you can pass <span class="docutils literal"><span class="pre">--verify=no</span></span>
 (default is <span class="docutils literal">yes</span>):</p>
 <pre class="code bash literal-block"><code>$ http --verify<span class="operator">=</span>no https://example.org</code></pre>
 </div>
 <div class="section" id="custom-ca-bundle">
-<h2><a class="toc-backref" href="#id44"><span class="sectnum">14.2</span> Custom CA bundle</a></h2>
+<h2><a class="dashingAutolink" name="autolink-43"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Custom%20CA%20bundle"></a><a class="toc-backref" href="#id44"><span class="sectnum">14.2</span> Custom CA bundle</a></h2>
 <p>You can also use <span class="docutils literal"><span class="pre">--verify=&lt;CA_BUNDLE_PATH&gt;</span></span> to set a custom CA bundle path:</p>
 <pre class="code bash literal-block"><code>$ http --verify<span class="operator">=</span>/ssl/custom_ca_bundle https://example.org</code></pre>
 </div>
 <div class="section" id="client-side-ssl-certificate">
-<h2><a class="toc-backref" href="#id45"><span class="sectnum">14.3</span> Client side SSL certificate</a></h2>
+<h2><a class="dashingAutolink" name="autolink-44"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Client%20side%20SSL%20certificate"></a><a class="toc-backref" href="#id45"><span class="sectnum">14.3</span> Client side SSL certificate</a></h2>
 <p>To use a client side certificate for the SSL communication, you can pass
 the path of the cert file with <span class="docutils literal"><span class="pre">--cert</span></span>:</p>
 <pre class="code bash literal-block"><code>$ http --cert<span class="operator">=</span>client.pem https://example.org</code></pre>
@@ -1282,7 +1280,7 @@ path of the key file with <span class="docutils literal"><span class="pre">--cer
 <pre class="code bash literal-block"><code>$ http --cert<span class="operator">=</span>client.crt --cert-key<span class="operator">=</span>client.key https://example.org</code></pre>
 </div>
 <div class="section" id="ssl-version">
-<h2><a class="toc-backref" href="#id46"><span class="sectnum">14.4</span> SSL version</a></h2>
+<h2><a class="dashingAutolink" name="autolink-45"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/SSL%20version"></a><a class="toc-backref" href="#id46"><span class="sectnum">14.4</span> SSL version</a></h2>
 <p>Use the <span class="docutils literal"><span class="pre">--ssl=&lt;PROTOCOL&gt;</span></span> to specify the desired protocol version to use.
 This will default to SSL v2.3 which will negotiate the highest protocol that both
 the server and your installation of OpenSSL support. The available protocols
@@ -1292,7 +1290,7 @@ available set of protocols may vary depending on your OpenSSL installation.)</p>
 </span>$ http --ssl<span class="operator">=</span>ssl3 https://vulnerable.example.org</code></pre>
 </div>
 <div class="section" id="sni-server-name-indication">
-<h2><a class="toc-backref" href="#id47"><span class="sectnum">14.5</span> SNI (Server Name Indication)</a></h2>
+<h2><a class="dashingAutolink" name="autolink-46"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/SNI%20%28Server%20Name%20Indication%29"></a><a class="toc-backref" href="#id47"><span class="sectnum">14.5</span> SNI (Server Name Indication)</a></h2>
 <p>If you use HTTPie with <a class="reference internal" href="#python-version">Python version</a> lower than 2.7.9
 (can be verified with <span class="docutils literal">http <span class="pre">--debug</span></span>) and need to talk to servers that
 use SNI (Server Name Indication) you need to install some additional
@@ -1303,14 +1301,14 @@ dependencies:</p>
 </div>
 </div>
 <div class="section" id="output-options">
-<h1><a class="toc-backref" href="#id48"><span class="sectnum">15</span> Output options</a></h1>
+<h1><a class="dashingAutolink" name="autolink-47"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Output%20options"></a><a class="toc-backref" href="#id48"><span class="sectnum">15</span> Output options</a></h1>
 <p>By default, HTTPie only outputs the final response and the whole response
 message is printed (headers as well as the body). You can control what should
 be printed via several options:</p>
 <table>
 <colgroup>
-<col style="width: 24%" />
-<col style="width: 76%" />
+<col style="width: 24%"/>
+<col style="width: 76%"/>
 </colgroup>
 <tbody>
 <tr><td><p><span class="docutils literal"><span class="pre">--headers,</span> <span class="pre">-h</span></span></p></td>
@@ -1339,7 +1337,7 @@ Host: httpbin.org
 User-Agent: HTTPie/0.2.7dev
 
 <span class="operator">{</span>
-    <span class="literal string double">&quot;hello&quot;</span>: <span class="literal string double">&quot;world&quot;</span>
+    <span class="literal string double">&#34;hello&#34;</span>: <span class="literal string double">&#34;world&#34;</span>
 <span class="operator">}</span>
 
 
@@ -1351,17 +1349,17 @@ Date: Sun, <span class="literal number">05</span> Aug <span class="literal numbe
 Server: gunicorn/0.13.4
 
 <span class="operator">{</span>
-    <span class="operator">[</span>…<span class="operator">]</span>
+    <span class="operator">[</span>&hellip;<span class="operator">]</span>
 <span class="operator">}</span></code></pre>
 <div class="section" id="what-parts-of-the-http-exchange-should-be-printed">
-<h2><a class="toc-backref" href="#id49"><span class="sectnum">15.1</span> What parts of the HTTP exchange should be printed</a></h2>
+<h2><a class="dashingAutolink" name="autolink-48"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/What%20parts%20of%20the%20HTTP%20exchange%20should%20be%20printed"></a><a class="toc-backref" href="#id49"><span class="sectnum">15.1</span> What parts of the HTTP exchange should be printed</a></h2>
 <p>All the other <a class="reference internal" href="#output-options">output options</a> are under the hood just shortcuts for
 the more powerful <span class="docutils literal"><span class="pre">--print,</span> <span class="pre">-p</span></span>. It accepts a string of characters each
 of which represents a specific part of the HTTP exchange:</p>
 <table>
 <colgroup>
-<col style="width: 36%" />
-<col style="width: 64%" />
+<col style="width: 36%"/>
+<col style="width: 64%"/>
 </colgroup>
 <thead>
 <tr><th class="head"><p>Character</p></th>
@@ -1387,7 +1385,7 @@ of which represents a specific part of the HTTP exchange:</p>
 <pre class="code bash literal-block"><code>$ http --print<span class="operator">=</span>Hh PUT httpbin.org/put <span class="name variable">hello</span><span class="operator">=</span>world</code></pre>
 </div>
 <div class="section" id="viewing-intermediary-requests-responses">
-<h2><a class="toc-backref" href="#id50"><span class="sectnum">15.2</span> Viewing intermediary requests/responses</a></h2>
+<h2><a class="dashingAutolink" name="autolink-49"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Viewing%20intermediary%20requests%2Fresponses"></a><a class="toc-backref" href="#id50"><span class="sectnum">15.2</span> Viewing intermediary requests/responses</a></h2>
 <p>To see all the HTTP communication, i.e. the final request/response as
 well as any possible  intermediary requests/responses, use the <span class="docutils literal"><span class="pre">--all</span></span>
 option. The intermediary HTTP communication include followed redirects
@@ -1396,40 +1394,40 @@ authentication is used (<span class="docutils literal"><span class="pre">--auth=
 <pre class="code bash literal-block"><code><span class="comment single"># Include all responses that lead to the final one:
 </span>$ http --all --follow httpbin.org/redirect/3</code></pre>
 <p>The intermediary requests/response are by default formatted according to
-<span class="docutils literal"><span class="pre">--print,</span> <span class="pre">-p</span></span> (and its shortcuts described above). If you'd like to change
+<span class="docutils literal"><span class="pre">--print,</span> <span class="pre">-p</span></span> (and its shortcuts described above). If you&#39;d like to change
 that, use the <span class="docutils literal"><span class="pre">--history-print,</span> <span class="pre">-P</span></span> option. It takes the same
 arguments as <span class="docutils literal"><span class="pre">--print,</span> <span class="pre">-p</span></span> but applies to the intermediary requests only.</p>
 <pre class="code bash literal-block"><code><span class="comment single"># Print the intermediary requests/responses differently than the final one:
 </span>$ http -A digest -a foo:bar --all -p Hh -P H httpbin.org/digest-auth/auth/foo/bar</code></pre>
 </div>
 <div class="section" id="conditional-body-download">
-<h2><a class="toc-backref" href="#id51"><span class="sectnum">15.3</span> Conditional body download</a></h2>
+<h2><a class="dashingAutolink" name="autolink-50"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Conditional%20body%20download"></a><a class="toc-backref" href="#id51"><span class="sectnum">15.3</span> Conditional body download</a></h2>
 <p>As an optimization, the response body is downloaded from the server
-only if it's part of the output. This is similar to performing a <span class="docutils literal">HEAD</span>
+only if it&#39;s part of the output. This is similar to performing a <span class="docutils literal">HEAD</span>
 request, except that it applies to any HTTP method you use.</p>
-<p>Let's say that there is an API that returns the whole resource when it is
+<p>Let&#39;s say that there is an API that returns the whole resource when it is
 updated, but you are only interested in the response headers to see the
 status code after an update:</p>
-<pre class="code bash literal-block"><code>$ http --headers PATCH example.org/Really-Huge-Resource <span class="name variable">name</span><span class="operator">=</span><span class="literal string single">'New Name'</span></code></pre>
+<pre class="code bash literal-block"><code>$ http --headers PATCH example.org/Really-Huge-Resource <span class="name variable">name</span><span class="operator">=</span><span class="literal string single">&#39;New Name&#39;</span></code></pre>
 <p>Since we are only printing the HTTP headers here, the connection to the server
 is closed as soon as all the response headers have been received.
-Therefore, bandwidth and time isn't wasted downloading the body
-which you don't care about. The response headers are downloaded always,
+Therefore, bandwidth and time isn&#39;t wasted downloading the body
+which you don&#39;t care about. The response headers are downloaded always,
 even if they are not part of the output</p>
 </div>
 </div>
 <div class="section" id="redirected-input">
-<h1><a class="toc-backref" href="#id52"><span class="sectnum">16</span> Redirected Input</a></h1>
+<h1><a class="dashingAutolink" name="autolink-51"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Redirected%20Input"></a><a class="toc-backref" href="#id52"><span class="sectnum">16</span> Redirected Input</a></h1>
 <p>The universal method for passing request data is through redirected <span class="docutils literal">stdin</span>
-(standard input)—piping. Such data is buffered and then with no further
+(standard input)&mdash;piping. Such data is buffered and then with no further
 processing used as the request body. There are multiple useful ways to use
 piping:</p>
 <p>Redirect from a file:</p>
 <pre class="code bash literal-block"><code>$ http PUT example.com/person/1 X-API-Token:123 &lt; person.json</code></pre>
 <p>Or the output of another program:</p>
-<pre class="code bash literal-block"><code>$ grep <span class="literal string single">'401 Unauthorized'</span> /var/log/httpd/error_log <span class="punctuation">|</span> http POST example.org/intruders</code></pre>
+<pre class="code bash literal-block"><code>$ grep <span class="literal string single">&#39;401 Unauthorized&#39;</span> /var/log/httpd/error_log <span class="punctuation">|</span> http POST example.org/intruders</code></pre>
 <p>You can use <span class="docutils literal">echo</span> for simple data:</p>
-<pre class="code bash literal-block"><code>$ <span class="name builtin">echo</span> <span class="literal string single">'{&quot;name&quot;: &quot;John&quot;}'</span> <span class="punctuation">|</span> http PATCH example.com/person/1 X-API-Token:123</code></pre>
+<pre class="code bash literal-block"><code>$ <span class="name builtin">echo</span> <span class="literal string single">&#39;{&#34;name&#34;: &#34;John&#34;}&#39;</span> <span class="punctuation">|</span> http PATCH example.com/person/1 X-API-Token:123</code></pre>
 <p>You can even pipe web services together using HTTPie:</p>
 <pre class="code bash literal-block"><code>$ http GET https://api.github.com/repos/jakubroztocil/httpie <span class="punctuation">|</span> http POST httpbin.org/post</code></pre>
 <p>You can use <span class="docutils literal">cat</span> to enter multiline data on the terminal:</p>
@@ -1444,29 +1442,29 @@ piping:</p>
 <pre class="code bash literal-block"><code>$ pbpaste <span class="punctuation">|</span> http PUT example.com</code></pre>
 <p>Passing data through <span class="docutils literal">stdin</span> cannot be combined with data fields specified
 on the command line:</p>
-<pre class="code bash literal-block"><code>$ <span class="name builtin">echo</span> <span class="literal string single">'data'</span> <span class="punctuation">|</span> http POST example.org <span class="name variable">more</span><span class="operator">=</span>data   <span class="comment single"># This is invalid</span></code></pre>
+<pre class="code bash literal-block"><code>$ <span class="name builtin">echo</span> <span class="literal string single">&#39;data&#39;</span> <span class="punctuation">|</span> http POST example.org <span class="name variable">more</span><span class="operator">=</span>data   <span class="comment single"># This is invalid</span></code></pre>
 <p>To prevent HTTPie from reading <span class="docutils literal">stdin</span> data you can use the
 <span class="docutils literal"><span class="pre">--ignore-stdin</span></span> option.</p>
 <div class="section" id="request-data-from-a-filename">
-<h2><a class="toc-backref" href="#id53"><span class="sectnum">16.1</span> Request data from a filename</a></h2>
+<h2><a class="dashingAutolink" name="autolink-52"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Request%20data%20from%20a%20filename"></a><a class="toc-backref" href="#id53"><span class="sectnum">16.1</span> Request data from a filename</a></h2>
 <p>An alternative to redirected <span class="docutils literal">stdin</span> is specifying a filename (as
-<span class="docutils literal">&#64;/path/to/file</span>) whose content is used as if it came from <span class="docutils literal">stdin</span>.</p>
+<span class="docutils literal">@/path/to/file</span>) whose content is used as if it came from <span class="docutils literal">stdin</span>.</p>
 <p>It has the advantage that the <span class="docutils literal"><span class="pre">Content-Type</span></span>
 header is automatically set to the appropriate value based on the
 filename extension. For example, the following request sends the
 verbatim contents of that XML file with <span class="docutils literal"><span class="pre">Content-Type:</span> application/xml</span>:</p>
-<pre class="code bash literal-block"><code>$ http PUT httpbin.org/put &#64;/data/file.xml</code></pre>
+<pre class="code bash literal-block"><code>$ http PUT httpbin.org/put @/data/file.xml</code></pre>
 </div>
 </div>
 <div class="section" id="terminal-output">
-<h1><a class="toc-backref" href="#id54"><span class="sectnum">17</span> Terminal output</a></h1>
+<h1><a class="dashingAutolink" name="autolink-53"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Terminal%20output"></a><a class="toc-backref" href="#id54"><span class="sectnum">17</span> Terminal output</a></h1>
 <p>HTTPie does several things by default in order to make its terminal output
 easy to read.</p>
 <div class="section" id="colors-and-formatting">
-<h2><a class="toc-backref" href="#id55"><span class="sectnum">17.1</span> Colors and formatting</a></h2>
+<h2><a class="dashingAutolink" name="autolink-54"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Colors%20and%20formatting"></a><a class="toc-backref" href="#id55"><span class="sectnum">17.1</span> Colors and formatting</a></h2>
 <p>Syntax highlighting is applied to HTTP headers and bodies (where it makes
 sense). You can choose your preferred color scheme via the <span class="docutils literal"><span class="pre">--style</span></span> option
-if you don't like the default one (see <span class="docutils literal">$ http <span class="pre">--help</span></span> for the possible
+if you don&#39;t like the default one (see <span class="docutils literal">$ http <span class="pre">--help</span></span> for the possible
 values).</p>
 <p>Also, the following formatting is applied:</p>
 <ul class="simple">
@@ -1477,8 +1475,8 @@ to the characters they represent.</p></li>
 <p>One of these options can be used to control output processing:</p>
 <table>
 <colgroup>
-<col style="width: 26%" />
-<col style="width: 74%" />
+<col style="width: 26%"/>
+<col style="width: 74%"/>
 </colgroup>
 <tbody>
 <tr><td><p><span class="docutils literal"><span class="pre">--pretty=all</span></span></p></td>
@@ -1499,7 +1497,7 @@ Default for redirected output.</p></td>
 </table>
 </div>
 <div class="section" id="binary-data">
-<h2><a class="toc-backref" href="#id56"><span class="sectnum">17.2</span> Binary data</a></h2>
+<h2><a class="dashingAutolink" name="autolink-55"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Binary%20data"></a><a class="toc-backref" href="#id56"><span class="sectnum">17.2</span> Binary data</a></h2>
 <p>Binary data is suppressed for terminal output, which makes it safe to perform
 requests to URLs that send back binary data. Binary data is suppressed also in
 redirected, but prettified output. The connection is closed as soon as we know
@@ -1518,15 +1516,15 @@ that the response body is binary,</p>
 </div>
 </div>
 <div class="section" id="redirected-output">
-<h1><a class="toc-backref" href="#id57"><span class="sectnum">18</span> Redirected output</a></h1>
+<h1><a class="dashingAutolink" name="autolink-56"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Redirected%20output"></a><a class="toc-backref" href="#id57"><span class="sectnum">18</span> Redirected output</a></h1>
 <p>HTTPie uses a different set of defaults for redirected output than for
 <a class="reference internal" href="#terminal-output">terminal output</a>. The differences being:</p>
 <ul class="simple">
-<li><p>Formatting and colors aren't applied (unless <span class="docutils literal"><span class="pre">--pretty</span></span> is specified).</p></li>
+<li><p>Formatting and colors aren&#39;t applied (unless <span class="docutils literal"><span class="pre">--pretty</span></span> is specified).</p></li>
 <li><p>Only the response body is printed (unless one of the <a class="reference internal" href="#output-options">output options</a> is set).</p></li>
-<li><p>Also, binary data isn't suppressed.</p></li>
+<li><p>Also, binary data isn&#39;t suppressed.</p></li>
 </ul>
-<p>The reason is to make piping HTTPie's output to another programs and
+<p>The reason is to make piping HTTPie&#39;s output to another programs and
 downloading files work with no extra flags. Most of the time, only the raw
 response body is of an interest when the output is redirected.</p>
 <p>Download a file:</p>
@@ -1541,12 +1539,12 @@ HTTPie`s output.</p>
 <p>You can create a shortcut for invoking HTTPie with colorized and paged output
 by adding the following to your <span class="docutils literal"><span class="pre">~/.bash_profile</span></span>:</p>
 <pre class="code bash literal-block"><code><span class="keyword">function</span> httpless <span class="operator">{</span>
-    <span class="comment single"># `httpless example.org'
-</span>    http --pretty<span class="operator">=</span>all --print<span class="operator">=</span>hb <span class="literal string double">&quot;</span><span class="name variable">$&#64;</span><span class="literal string double">&quot;</span> <span class="punctuation">|</span> less -R<span class="punctuation">;</span>
+    <span class="comment single"># `httpless example.org&#39;
+</span>    http --pretty<span class="operator">=</span>all --print<span class="operator">=</span>hb <span class="literal string double">&#34;</span><span class="name variable">$@</span><span class="literal string double">&#34;</span> <span class="punctuation">|</span> less -R<span class="punctuation">;</span>
 <span class="operator">}</span></code></pre>
 </div>
 <div class="section" id="download-mode">
-<h1><a class="toc-backref" href="#id58"><span class="sectnum">19</span> Download mode</a></h1>
+<h1><a class="dashingAutolink" name="autolink-57"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Download%20mode"></a><a class="toc-backref" href="#id58"><span class="sectnum">19</span> Download mode</a></h1>
 <p>HTTPie features a download mode in which it acts similarly to <span class="docutils literal">wget</span>.</p>
 <p>When enabled using the <span class="docutils literal"><span class="pre">--download,</span> <span class="pre">-d</span></span> flag, response headers are printed to
 the terminal (<span class="docutils literal">stderr</span>), and a progress bar is shown while the response body
@@ -1557,49 +1555,49 @@ is being saved to a file.</p>
 <span class="name attribute">Content-Length</span><span class="operator">:</span> <span class="literal">257336</span>
 <span class="name attribute">Content-Type</span><span class="operator">:</span> <span class="literal">application/x-gzip</span>
 
-Downloading 251.30 kB to &quot;httpie-master.tar.gz&quot;
+Downloading 251.30 kB to &#34;httpie-master.tar.gz&#34;
 Done. 251.30 kB in 2.73862s (91.76 kB/s)</code></pre>
 <div class="section" id="downloaded-file-name">
-<h2><a class="toc-backref" href="#id59"><span class="sectnum">19.1</span> Downloaded file name</a></h2>
+<h2><a class="dashingAutolink" name="autolink-58"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Downloaded%20file%20name"></a><a class="toc-backref" href="#id59"><span class="sectnum">19.1</span> Downloaded file name</a></h2>
 <p>If not provided via <span class="docutils literal"><span class="pre">--output,</span> <span class="pre">-o</span></span>, the output filename will be determined
 from <span class="docutils literal"><span class="pre">Content-Disposition</span></span> (if available), or from the URL and
 <span class="docutils literal"><span class="pre">Content-Type</span></span>. If the guessed filename already exists, HTTPie adds a unique
 suffix to it.</p>
 </div>
 <div class="section" id="piping-while-downloading">
-<h2><a class="toc-backref" href="#id60"><span class="sectnum">19.2</span> Piping while downloading</a></h2>
+<h2><a class="dashingAutolink" name="autolink-59"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Piping%20while%20downloading"></a><a class="toc-backref" href="#id60"><span class="sectnum">19.2</span> Piping while downloading</a></h2>
 <p>You can also redirect the response body to another program while the response
 headers and progress are still shown in the terminal:</p>
 <pre class="code bash literal-block"><code>$ http -d https://github.com/jakubroztocil/httpie/archive/master.tar.gz <span class="punctuation">|</span>  tar zxf -</code></pre>
 </div>
 <div class="section" id="resuming-downloads">
-<h2><a class="toc-backref" href="#id61"><span class="sectnum">19.3</span> Resuming downloads</a></h2>
+<h2><a class="dashingAutolink" name="autolink-60"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Resuming%20downloads"></a><a class="toc-backref" href="#id61"><span class="sectnum">19.3</span> Resuming downloads</a></h2>
 <p>If <span class="docutils literal"><span class="pre">--output,</span> <span class="pre">-o</span></span> is specified, you can resume a partial download using the
 <span class="docutils literal"><span class="pre">--continue,</span> <span class="pre">-c</span></span> option. This only works with servers that support
-<span class="docutils literal">Range</span> requests and <span class="docutils literal">206 Partial Content</span> responses. If the server doesn't
+<span class="docutils literal">Range</span> requests and <span class="docutils literal">206 Partial Content</span> responses. If the server doesn&#39;t
 support that, the whole file will simply be downloaded:</p>
 <pre class="code bash literal-block"><code>$ http -dco file.zip example.org/file</code></pre>
 </div>
 <div class="section" id="other-notes">
-<h2><a class="toc-backref" href="#id62"><span class="sectnum">19.4</span> Other notes</a></h2>
+<h2><a class="dashingAutolink" name="autolink-61"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Other%20notes"></a><a class="toc-backref" href="#id62"><span class="sectnum">19.4</span> Other notes</a></h2>
 <ul class="simple">
 <li><p>The <span class="docutils literal"><span class="pre">--download</span></span> option only changes how the response body is treated.</p></li>
 <li><p>You can still set custom headers, use sessions, <span class="docutils literal"><span class="pre">--verbose,</span> <span class="pre">-v</span></span>, etc.</p></li>
 <li><p><span class="docutils literal"><span class="pre">--download</span></span> always implies <span class="docutils literal"><span class="pre">--follow</span></span> (redirects are followed).</p></li>
-<li><p>HTTPie exits with status code <span class="docutils literal">1</span> (error) if the body hasn't been fully
+<li><p>HTTPie exits with status code <span class="docutils literal">1</span> (error) if the body hasn&#39;t been fully
 downloaded.</p></li>
 <li><p><span class="docutils literal"><span class="pre">Accept-Encoding</span></span> cannot be set with <span class="docutils literal"><span class="pre">--download</span></span>.</p></li>
 </ul>
 </div>
 </div>
 <div class="section" id="streamed-responses">
-<h1><a class="toc-backref" href="#id63"><span class="sectnum">20</span> Streamed responses</a></h1>
+<h1><a class="dashingAutolink" name="autolink-62"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Streamed%20responses"></a><a class="toc-backref" href="#id63"><span class="sectnum">20</span> Streamed responses</a></h1>
 <p>Responses are downloaded and printed in chunks which allows for streaming
 and large file downloads without using too much memory. However, when
 <a class="reference internal" href="#colors-and-formatting">colors and formatting</a> is applied, the whole response is buffered and only
 then processed at once.</p>
 <div class="section" id="disabling-buffering">
-<h2><a class="toc-backref" href="#id64"><span class="sectnum">20.1</span> Disabling buffering</a></h2>
+<h2><a class="dashingAutolink" name="autolink-63"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Disabling%20buffering"></a><a class="toc-backref" href="#id64"><span class="sectnum">20.1</span> Disabling buffering</a></h2>
 <p>You can use the <span class="docutils literal"><span class="pre">--stream,</span> <span class="pre">-S</span></span> flag to make two things happen:</p>
 <ol class="arabic simple">
 <li><p>The output is flushed in much smaller chunks without any buffering,
@@ -1611,18 +1609,18 @@ to the Twitter streaming API.</p></li>
 </ol>
 </div>
 <div class="section" id="examples-use-cases">
-<h2><a class="toc-backref" href="#id65"><span class="sectnum">20.2</span> Examples use cases</a></h2>
+<h2><a class="dashingAutolink" name="autolink-64"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Examples%20use%20cases"></a><a class="toc-backref" href="#id65"><span class="sectnum">20.2</span> Examples use cases</a></h2>
 <p>Prettified streamed response:</p>
-<pre class="code bash literal-block"><code>$ http --stream -f -a YOUR-TWITTER-NAME https://stream.twitter.com/1/statuses/filter.json <span class="name variable">track</span><span class="operator">=</span><span class="literal string single">'Justin Bieber'</span></code></pre>
-<p>Streamed output by small chunks alá <span class="docutils literal">tail <span class="pre">-f</span></span>:</p>
-<pre class="code bash literal-block"><code><span class="comment single"># Send each new tweet (JSON object) mentioning &quot;Apple&quot; to another
+<pre class="code bash literal-block"><code>$ http --stream -f -a YOUR-TWITTER-NAME https://stream.twitter.com/1/statuses/filter.json <span class="name variable">track</span><span class="operator">=</span><span class="literal string single">&#39;Justin Bieber&#39;</span></code></pre>
+<p>Streamed output by small chunks al&aacute; <span class="docutils literal">tail <span class="pre">-f</span></span>:</p>
+<pre class="code bash literal-block"><code><span class="comment single"># Send each new tweet (JSON object) mentioning &#34;Apple&#34; to another
 # server as soon as it arrives from the Twitter streaming API:
 </span>$ http --stream -f -a YOUR-TWITTER-NAME https://stream.twitter.com/1/statuses/filter.json <span class="name variable">track</span><span class="operator">=</span>Apple <span class="literal string escape">\
-</span><span class="punctuation">|</span> <span class="keyword">while</span> <span class="name builtin">read</span> tweet<span class="punctuation">;</span> <span class="keyword">do</span> <span class="name builtin">echo</span> <span class="literal string double">&quot;</span><span class="name variable">$tweet</span><span class="literal string double">&quot;</span> <span class="punctuation">|</span> http POST example.org/tweets <span class="punctuation">;</span> <span class="keyword">done</span></code></pre>
+</span><span class="punctuation">|</span> <span class="keyword">while</span> <span class="name builtin">read</span> tweet<span class="punctuation">;</span> <span class="keyword">do</span> <span class="name builtin">echo</span> <span class="literal string double">&#34;</span><span class="name variable">$tweet</span><span class="literal string double">&#34;</span> <span class="punctuation">|</span> http POST example.org/tweets <span class="punctuation">;</span> <span class="keyword">done</span></code></pre>
 </div>
 </div>
 <div class="section" id="sessions">
-<h1><a class="toc-backref" href="#id66"><span class="sectnum">21</span> Sessions</a></h1>
+<h1><a class="dashingAutolink" name="autolink-65"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Sessions"></a><a class="toc-backref" href="#id66"><span class="sectnum">21</span> Sessions</a></h1>
 <p>By default, every request HTTPie makes is completely independent of any
 previous ones to the same host.</p>
 <p>However, HTTPie also supports persistent
@@ -1634,15 +1632,15 @@ to the same host.</p>
 <pre class="code bash literal-block"><code><span class="comment single"># Create a new session
 </span>$ http --session<span class="operator">=</span>/tmp/session.json example.org API-Token:123
 
-<span class="comment single"># Re-use an existing session — API-Token will be set:
+<span class="comment single"># Re-use an existing session &mdash; API-Token will be set:
 </span>$ http --session<span class="operator">=</span>/tmp/session.json example.org</code></pre>
 <p>All session data, including credentials, cookie data,
 and custom headers are stored in plain text.
 That means session files can also be created and edited manually in a text
-editor—they are regular JSON. It also means that they can be read by anyone
+editor&mdash;they are regular JSON. It also means that they can be read by anyone
 who has access to the session file.</p>
 <div class="section" id="named-sessions">
-<h2><a class="toc-backref" href="#id67"><span class="sectnum">21.1</span> Named sessions</a></h2>
+<h2><a class="dashingAutolink" name="autolink-66"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Named%20sessions"></a><a class="toc-backref" href="#id67"><span class="sectnum">21.1</span> Named sessions</a></h2>
 <p>You can create one or more named session per host. For example, this is how
 you can create a new session named <span class="docutils literal">user1</span> for <span class="docutils literal">example.org</span>:</p>
 <pre class="code bash literal-block"><code>$ http --session<span class="operator">=</span>user1 -a user1:password example.org X-Foo:Bar</code></pre>
@@ -1652,12 +1650,12 @@ will automatically be set:</p>
 <pre class="code bash literal-block"><code>$ http --session<span class="operator">=</span>user1 example.org</code></pre>
 <p>To create or reuse a different session, simple specify a different name:</p>
 <pre class="code bash literal-block"><code>$ http --session<span class="operator">=</span>user2 -a user2:password example.org X-Bar:Foo</code></pre>
-<p>Named sessions' data is stored in JSON files in the directory
+<p>Named sessions&#39; data is stored in JSON files in the directory
 <span class="docutils literal"><span class="pre">~/.httpie/sessions/&lt;host&gt;/&lt;name&gt;.json</span></span>
 (<span class="docutils literal"><span class="pre">%APPDATA%\httpie\sessions\&lt;host&gt;\&lt;name&gt;.json</span></span> on Windows).</p>
 </div>
 <div class="section" id="anonymous-sessions">
-<h2><a class="toc-backref" href="#id68"><span class="sectnum">21.2</span> Anonymous sessions</a></h2>
+<h2><a class="dashingAutolink" name="autolink-67"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Anonymous%20sessions"></a><a class="toc-backref" href="#id68"><span class="sectnum">21.2</span> Anonymous sessions</a></h2>
 <p>Instead of a name, you can also directly specify a path to a session file. This
 allows for sessions to be re-used across multiple hosts:</p>
 <pre class="code bash literal-block"><code>$ http --session<span class="operator">=</span>/tmp/session.json example.org
@@ -1666,50 +1664,50 @@ $ http --session<span class="operator">=</span>~/.httpie/sessions/another.exampl
 $ http --session-read-only<span class="operator">=</span>/tmp/session.json example.org</code></pre>
 </div>
 <div class="section" id="readonly-session">
-<h2><a class="toc-backref" href="#id69"><span class="sectnum">21.3</span> Readonly session</a></h2>
+<h2><a class="dashingAutolink" name="autolink-68"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Readonly%20session"></a><a class="toc-backref" href="#id69"><span class="sectnum">21.3</span> Readonly session</a></h2>
 <p>To use an existing session file without updating it from the request/response
 exchange once it is created, specify the session name via
 <span class="docutils literal"><span class="pre">--session-read-only=SESSION_NAME_OR_PATH</span></span> instead.</p>
 </div>
 </div>
 <div class="section" id="config">
-<h1><a class="toc-backref" href="#id70"><span class="sectnum">22</span> Config</a></h1>
+<h1><a class="dashingAutolink" name="autolink-69"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Config"></a><a class="toc-backref" href="#id70"><span class="sectnum">22</span> Config</a></h1>
 <p>HTTPie uses a simple JSON config file.</p>
 <div class="section" id="config-file-location">
-<h2><a class="toc-backref" href="#id71"><span class="sectnum">22.1</span> Config file location</a></h2>
+<h2><a class="dashingAutolink" name="autolink-70"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Config%20file%20location"></a><a class="toc-backref" href="#id71"><span class="sectnum">22.1</span> Config file location</a></h2>
 <p>The default location of the configuration file is <span class="docutils literal"><span class="pre">~/.httpie/config.json</span></span>
 (or <span class="docutils literal"><span class="pre">%APPDATA%\httpie\config.json</span></span> on Windows). The config directory
 location can be changed by setting the <span class="docutils literal">HTTPIE_CONFIG_DIR</span>
 environment variable. To view the exact location run <span class="docutils literal">http <span class="pre">--debug</span></span>.</p>
 </div>
 <div class="section" id="configurable-options">
-<h2><a class="toc-backref" href="#id72"><span class="sectnum">22.2</span> Configurable options</a></h2>
+<h2><a class="dashingAutolink" name="autolink-71"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Configurable%20options"></a><a class="toc-backref" href="#id72"><span class="sectnum">22.2</span> Configurable options</a></h2>
 <p>The JSON file contains an object with the following keys:</p>
 <div class="section" id="default-options">
-<h3><a class="toc-backref" href="#id73"><span class="sectnum">22.2.1</span> <span class="docutils literal">default_options</span></a></h3>
+<h3><a class="dashingAutolink" name="autolink-72"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/default_options"></a><a class="toc-backref" href="#id73"><span class="sectnum">22.2.1</span> <span class="docutils literal">default_options</span></a></h3>
 <p>An <span class="docutils literal">Array</span> (by default empty) of default options that should be applied to
 every invocation of HTTPie.</p>
 <p>For instance, you can use this option to change the default style and output
-options: <span class="docutils literal">&quot;default_options&quot;: <span class="pre">[&quot;--style=fruity&quot;,</span> <span class="pre">&quot;--body&quot;]</span></span> Another useful
-default option could be <span class="docutils literal"><span class="pre">&quot;--session=default&quot;</span></span> to make HTTPie always
+options: <span class="docutils literal">&#34;default_options&#34;: <span class="pre">[&#34;--style=fruity&#34;,</span> <span class="pre">&#34;--body&#34;]</span></span> Another useful
+default option could be <span class="docutils literal"><span class="pre">&#34;--session=default&#34;</span></span> to make HTTPie always
 use <a class="reference internal" href="#sessions">sessions</a> (one named <span class="docutils literal">default</span> will automatically be used).
 Or you could change the implicit request content type from JSON to form by
 adding <span class="docutils literal"><span class="pre">--form</span></span> to the list.</p>
 </div>
 <div class="section" id="meta">
-<h3><a class="toc-backref" href="#id74"><span class="sectnum">22.2.2</span> <span class="docutils literal">__meta__</span></a></h3>
+<h3><a class="dashingAutolink" name="autolink-73"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/__meta__"></a><a class="toc-backref" href="#id74"><span class="sectnum">22.2.2</span> <span class="docutils literal">__meta__</span></a></h3>
 <p>HTTPie automatically stores some of its metadata here. Please do not change.</p>
 </div>
 </div>
 <div class="section" id="un-setting-previously-specified-options">
-<h2><a class="toc-backref" href="#id75"><span class="sectnum">22.3</span> Un-setting previously specified options</a></h2>
+<h2><a class="dashingAutolink" name="autolink-74"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Un-setting%20previously%20specified%20options"></a><a class="toc-backref" href="#id75"><span class="sectnum">22.3</span> Un-setting previously specified options</a></h2>
 <p>Default options from the config file, or specified any other way,
 can be unset for a particular invocation via <span class="docutils literal"><span class="pre">--no-OPTION</span></span> arguments passed
 on the command line (e.g., <span class="docutils literal"><span class="pre">--no-style</span></span> or <span class="docutils literal"><span class="pre">--no-session</span></span>).</p>
 </div>
 </div>
 <div class="section" id="scripting">
-<h1><a class="toc-backref" href="#id76"><span class="sectnum">23</span> Scripting</a></h1>
+<h1><a class="dashingAutolink" name="autolink-75"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Scripting"></a><a class="toc-backref" href="#id76"><span class="sectnum">23</span> Scripting</a></h1>
 <p>When using HTTPie from shell scripts, it can be handy to set the
 <span class="docutils literal"><span class="pre">--check-status</span></span> flag. It instructs HTTPie to exit with an error if the
 HTTP status is one of <span class="docutils literal">3xx</span>, <span class="docutils literal">4xx</span>, or <span class="docutils literal">5xx</span>. The exit status will
@@ -1718,19 +1716,19 @@ respectively.</p>
 <pre class="code bash literal-block"><code><span class="comment hashbang">#!/bin/bash
 </span>
 <span class="keyword">if</span> http --check-status --ignore-stdin --timeout<span class="operator">=</span><span class="literal number">2</span>.5 HEAD example.org/health <span class="punctuation">&amp;</span>&gt; /dev/null<span class="punctuation">;</span> <span class="keyword">then</span>
-    <span class="name builtin">echo</span> <span class="literal string single">'OK!'</span>
+    <span class="name builtin">echo</span> <span class="literal string single">&#39;OK!&#39;</span>
 <span class="keyword">else</span>
     <span class="keyword">case</span> <span class="name variable">$?</span> in
-        <span class="literal number">2</span><span class="operator">)</span> <span class="name builtin">echo</span> <span class="literal string single">'Request timed out!'</span> <span class="punctuation">;;</span>
-        <span class="literal number">3</span><span class="operator">)</span> <span class="name builtin">echo</span> <span class="literal string single">'Unexpected HTTP 3xx Redirection!'</span> <span class="punctuation">;;</span>
-        <span class="literal number">4</span><span class="operator">)</span> <span class="name builtin">echo</span> <span class="literal string single">'HTTP 4xx Client Error!'</span> <span class="punctuation">;;</span>
-        <span class="literal number">5</span><span class="operator">)</span> <span class="name builtin">echo</span> <span class="literal string single">'HTTP 5xx Server Error!'</span> <span class="punctuation">;;</span>
-        <span class="literal number">6</span><span class="operator">)</span> <span class="name builtin">echo</span> <span class="literal string single">'Exceeded --max-redirects=&lt;n&gt; redirects!'</span> <span class="punctuation">;;</span>
-        *<span class="operator">)</span> <span class="name builtin">echo</span> <span class="literal string single">'Other Error!'</span> <span class="punctuation">;;</span>
+        <span class="literal number">2</span><span class="operator">)</span> <span class="name builtin">echo</span> <span class="literal string single">&#39;Request timed out!&#39;</span> <span class="punctuation">;;</span>
+        <span class="literal number">3</span><span class="operator">)</span> <span class="name builtin">echo</span> <span class="literal string single">&#39;Unexpected HTTP 3xx Redirection!&#39;</span> <span class="punctuation">;;</span>
+        <span class="literal number">4</span><span class="operator">)</span> <span class="name builtin">echo</span> <span class="literal string single">&#39;HTTP 4xx Client Error!&#39;</span> <span class="punctuation">;;</span>
+        <span class="literal number">5</span><span class="operator">)</span> <span class="name builtin">echo</span> <span class="literal string single">&#39;HTTP 5xx Server Error!&#39;</span> <span class="punctuation">;;</span>
+        <span class="literal number">6</span><span class="operator">)</span> <span class="name builtin">echo</span> <span class="literal string single">&#39;Exceeded --max-redirects=&lt;n&gt; redirects!&#39;</span> <span class="punctuation">;;</span>
+        *<span class="operator">)</span> <span class="name builtin">echo</span> <span class="literal string single">&#39;Other Error!&#39;</span> <span class="punctuation">;;</span>
     <span class="keyword">esac</span>
 <span class="keyword">fi</span></code></pre>
 <div class="section" id="best-practices">
-<h2><a class="toc-backref" href="#id77"><span class="sectnum">23.1</span> Best practices</a></h2>
+<h2><a class="dashingAutolink" name="autolink-76"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Best%20practices"></a><a class="toc-backref" href="#id77"><span class="sectnum">23.1</span> Best practices</a></h2>
 <p>The default behaviour of automatically reading <span class="docutils literal">stdin</span> is typically not
 desirable during non-interactive invocations. You most likely want
 use the <span class="docutils literal"><span class="pre">--ignore-stdin</span></span> option to disable it.</p>
@@ -1739,18 +1737,18 @@ What happens is that when HTTPie is invoked for example from a cron job,
 <span class="docutils literal">stdin</span> is not connected to a terminal.
 Therefore, rules for <a class="reference internal" href="#redirected-input">redirected input</a> apply, i.e., HTTPie starts to read it
 expecting that the request body will be passed through.
-And since there's no data nor <span class="docutils literal">EOF</span>, it will be stuck. So unless you're
+And since there&#39;s no data nor <span class="docutils literal">EOF</span>, it will be stuck. So unless you&#39;re
 piping some data to HTTPie, this flag should be used in scripts.</p>
 <p>Also, it might be good to override the default <span class="docutils literal">30</span> second <span class="docutils literal"><span class="pre">--timeout</span></span> to
 something that suits you.</p>
 </div>
 </div>
 <div class="section" id="id1">
-<h1><a class="toc-backref" href="#id78"><span class="sectnum">24</span> Meta</a></h1>
+<h1><a class="dashingAutolink" name="autolink-77"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Meta"></a><a class="toc-backref" href="#id78"><span class="sectnum">24</span> Meta</a></h1>
 <div class="section" id="interface-design">
-<h2><a class="toc-backref" href="#id79"><span class="sectnum">24.1</span> Interface design</a></h2>
+<h2><a class="dashingAutolink" name="autolink-78"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Interface%20design"></a><a class="toc-backref" href="#id79"><span class="sectnum">24.1</span> Interface design</a></h2>
 <p>The syntax of the command arguments closely corresponds to the actual HTTP
-requests sent over the wire. It has the advantage  that it's easy to remember
+requests sent over the wire. It has the advantage  that it&#39;s easy to remember
 and read. It is often possible to translate an HTTP request to an HTTPie
 argument list just by inlining the request elements. For example, compare this
 HTTP request:</p>
@@ -1768,7 +1766,7 @@ name=value&amp;name2=value2</code></pre>
 </span>  <span class="name variable">name2</span><span class="operator">=</span>value2</code></pre>
 <p>Notice that both the order of elements and the syntax is very similar,
 and that only a small portion of the command is used to control HTTPie and
-doesn't directly correspond to any part of the request (here it's only <span class="docutils literal"><span class="pre">-f</span></span>
+doesn&#39;t directly correspond to any part of the request (here it&#39;s only <span class="docutils literal"><span class="pre">-f</span></span>
 asking HTTPie to send a form request).</p>
 <p>The two modes, <span class="docutils literal"><span class="pre">--pretty=all</span></span> (default for terminal) and <span class="docutils literal"><span class="pre">--pretty=none</span></span>
 (default for redirected output), allow for both user-friendly interactive use
@@ -1779,7 +1777,7 @@ HTTPie reaches its final version <span class="docutils literal">1.0</span>. All 
 <a class="reference internal" href="#change-log">change log</a>.</p>
 </div>
 <div class="section" id="user-support">
-<h2><a class="toc-backref" href="#id80"><span class="sectnum">24.2</span> User support</a></h2>
+<h2><a class="dashingAutolink" name="autolink-79"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/User%20support"></a><a class="toc-backref" href="#id80"><span class="sectnum">24.2</span> User support</a></h2>
 <p>Please use the following support channels:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://github.com/jkbr/httpie/issues">GitHub issues</a>
@@ -1789,66 +1787,67 @@ to ask questions, discuss features, and for general discussion.</p></li>
 <li><p><a class="reference external" href="https://stackoverflow.com">StackOverflow</a>
 to ask questions (please make sure to use the
 <a class="reference external" href="http://stackoverflow.com/questions/tagged/httpie">httpie</a> tag).</p></li>
-<li><p>Tweet directly to <a class="reference external" href="https://twitter.com/clihttp">&#64;clihttp</a>.</p></li>
-<li><p>You can also tweet directly to <a class="reference external" href="https://twitter.com/jakubroztocil">&#64;jakubroztocil</a>.</p></li>
+<li><p>Tweet directly to <a class="reference external" href="https://twitter.com/clihttp">@clihttp</a>.</p></li>
+<li><p>You can also tweet directly to <a class="reference external" href="https://twitter.com/jakubroztocil">@jakubroztocil</a>.</p></li>
 </ul>
 </div>
 <div class="section" id="related-projects">
-<h2><a class="toc-backref" href="#id81"><span class="sectnum">24.3</span> Related projects</a></h2>
+<h2><a class="dashingAutolink" name="autolink-80"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Related%20projects"></a><a class="toc-backref" href="#id81"><span class="sectnum">24.3</span> Related projects</a></h2>
 <div class="section" id="dependencies">
-<h3><a class="toc-backref" href="#id82"><span class="sectnum">24.3.1</span> Dependencies</a></h3>
+<h3><a class="dashingAutolink" name="autolink-81"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Dependencies"></a><a class="toc-backref" href="#id82"><span class="sectnum">24.3.1</span> Dependencies</a></h3>
 <p>Under the hood, HTTPie uses these two amazing libraries:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="http://python-requests.org">Requests</a>
-— Python HTTP library for humans</p></li>
+&mdash; Python HTTP library for humans</p></li>
 <li><p><a class="reference external" href="http://pygments.org/">Pygments</a>
-— Python syntax highlighter</p></li>
+&mdash; Python syntax highlighter</p></li>
 </ul>
 </div>
 <div class="section" id="httpie-friends">
-<h3><a class="toc-backref" href="#id83"><span class="sectnum">24.3.2</span> HTTPie friends</a></h3>
+<h3><a class="dashingAutolink" name="autolink-82"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/HTTPie%20friends"></a><a class="toc-backref" href="#id83"><span class="sectnum">24.3.2</span> HTTPie friends</a></h3>
 <p>HTTPie plays exceptionally well with the following tools:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://stedolan.github.io/jq/">jq</a>
-— CLI JSON processor that
+&mdash; CLI JSON processor that
 works great in conjunction with HTTPie</p></li>
 <li><p><a class="reference external" href="https://github.com/eliangcs/http-prompt">http-prompt</a>
-—  interactive shell for HTTPie featuring autocomplete
+&mdash;  interactive shell for HTTPie featuring autocomplete
 and command syntax highlighting</p></li>
 </ul>
 </div>
 <div class="section" id="alternatives">
-<h3><a class="toc-backref" href="#id84"><span class="sectnum">24.3.3</span> Alternatives</a></h3>
+<h3><a class="dashingAutolink" name="autolink-83"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Alternatives"></a><a class="toc-backref" href="#id84"><span class="sectnum">24.3.3</span> Alternatives</a></h3>
 <ul class="simple">
-<li><p><a class="reference external" href="https://github.com/jakubroztocil/httpcat">httpcat</a> — a lower-level sister utility
+<li><p><a class="reference external" href="https://github.com/jakubroztocil/httpcat">httpcat</a> &mdash; a lower-level sister utility
 of HTTPie for constructing raw HTTP requests on the command line.</p></li>
-<li><p><a class="reference external" href="https://curl.haxx.se">curl</a> — a &quot;Swiss knife&quot; command line tool and
+<li><p><a class="reference external" href="https://curl.haxx.se">curl</a> &mdash; a &#34;Swiss knife&#34; command line tool and
 an exceptional library for transferring data with URLs.</p></li>
 </ul>
 </div>
 </div>
 <div class="section" id="contributing">
-<h2><a class="toc-backref" href="#id85"><span class="sectnum">24.4</span> Contributing</a></h2>
+<h2><a class="dashingAutolink" name="autolink-84"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Contributing"></a><a class="toc-backref" href="#id85"><span class="sectnum">24.4</span> Contributing</a></h2>
 <p>See <a class="reference external" href="https://github.com/jakubroztocil/httpie/blob/master/CONTRIBUTING.rst">CONTRIBUTING.rst</a>.</p>
 </div>
 <div class="section" id="change-log">
-<h2><a class="toc-backref" href="#id86"><span class="sectnum">24.5</span> Change log</a></h2>
+<h2><a class="dashingAutolink" name="autolink-85"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Change%20log"></a><a class="toc-backref" href="#id86"><span class="sectnum">24.5</span> Change log</a></h2>
 <p>See <a class="reference external" href="https://github.com/jakubroztocil/httpie/blob/master/CHANGELOG.rst">CHANGELOG</a>.</p>
 </div>
 <div class="section" id="artwork">
-<h2><a class="toc-backref" href="#id87"><span class="sectnum">24.6</span> Artwork</a></h2>
+<h2><a class="dashingAutolink" name="autolink-86"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Artwork"></a><a class="toc-backref" href="#id87"><span class="sectnum">24.6</span> Artwork</a></h2>
 <p>See <a class="reference external" href="https://github.com/claudiatd/httpie-artwork">claudiatd/httpie-artwork</a></p>
 </div>
 <div class="section" id="licence">
-<h2><a class="toc-backref" href="#id88"><span class="sectnum">24.7</span> Licence</a></h2>
+<h2><a class="dashingAutolink" name="autolink-87"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Licence"></a><a class="toc-backref" href="#id88"><span class="sectnum">24.7</span> Licence</a></h2>
 <p>BSD-3-Clause: <a class="reference external" href="https://github.com/jakubroztocil/httpie/blob/master/LICENSE">LICENSE</a>.</p>
 </div>
 <div class="section" id="authors">
-<h2><a class="toc-backref" href="#id89"><span class="sectnum">24.8</span> Authors</a></h2>
-<p><a class="reference external" href="https://roztocil.co">Jakub Roztocil</a>  (<a class="reference external" href="https://twitter.com/jakubroztocil">&#64;jakubroztocil</a>) created HTTPie and <a class="reference external" href="https://github.com/jakubroztocil/httpie/contributors">these fine people</a>
+<h2><a class="dashingAutolink" name="autolink-88"></a><a class="dashAnchor" name="//apple_ref/cpp/Section/Authors"></a><a class="toc-backref" href="#id89"><span class="sectnum">24.8</span> Authors</a></h2>
+<p><a class="reference external" href="https://roztocil.co">Jakub Roztocil</a>  (<a class="reference external" href="https://twitter.com/jakubroztocil">@jakubroztocil</a>) created HTTPie and <a class="reference external" href="https://github.com/jakubroztocil/httpie/contributors">these fine people</a>
 have contributed.</p>
 </div>
 </div>
 </div>
-</body>
-</html>
+
+
+</body></html>
